@@ -1,0 +1,76 @@
+@import 'scss/colors';
+@import 'scss/mixins';
+
+$image-path: 'http://via.placeholder.com/350x150';
+
+$app-size: 100px;
+
+@function centre-width($gutter) {
+    @return $app-size - $gutter;
+}
+
+@function check-color($color) {
+    @if $color == green {
+        @return green;
+    } @else {
+        @return red;
+    }
+}
+
+.darken-text { color: $darken-text; }
+
+.lighten-text { color: $lighten-text; }
+
+.saturate-text { color: saturate(blue, 50%) }
+
+.desaturate-text { color: desaturate(blue, 50%) }
+
+.fade_in-text { color: fade_in(blue, .3) }
+
+.fade_out-text { color: fade_out(blue, .3) }
+
+.invert-text { color: invert(green) }
+
+.complement-text { color: complement(green) }
+
+.image { background-image: url($image-path); }
+
+a {
+    color: green;
+    &:hover {
+        color: red;
+    }
+}
+
+.extend-a {
+    @extend a;
+    &:hover {
+        margin-top: 25px;
+        border: 5px pink solid;
+    }
+}
+
+button {
+    font: {
+        family: Verdana, Helvetica, sans-serif;
+        size: 20px;
+        weight: bold; 
+    }
+    &:hover {
+        background-color: lightblue;
+        font: {
+            weight: normal; 
+        }
+    }
+}
+
+.mixin-rounded-container {
+    padding: 5px;
+    background-color: lightgreen;
+    width: centre-width(10px);
+    color: check-color(blue);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    @include rounded-corners(10px);
+}
