@@ -1,7 +1,26 @@
 .bottombar {
-    width: 100%;
-    height: 100px;
-    background: red;
+    width: 80%;
+    height: 6%;
+    background: #3b3b3b;
     position: fixed;
     bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    opacity: 0.8;
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.11em;
+    font-weight: 300;
+    .social {
+        margin-top: 16px;
+    }
+
+    a {
+        padding: 30px;
+        margin-right: 10px;
+        color: #fff;
+    }
+    
+
 }

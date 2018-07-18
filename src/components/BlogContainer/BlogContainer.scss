@@ -2,7 +2,34 @@
 .blogContainer {
     width: 80%;
     height: 100vh;
-    background:#eee;
     float: right;
     flex: 1;
+    font-weight: 700;
+   
+}
+
+.blogPost {
+    width: 50%;
+    height: auto;
+    min-height: 200px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+   
+    
+    h1 {
+        padding-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .blogPost {
+        width: 100%;
+        padding: 20px;
+    }
 }

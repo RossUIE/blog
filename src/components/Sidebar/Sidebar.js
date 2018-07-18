@@ -1,6 +1,8 @@
-import React, { Component} from 'react'
-import ReactDOM from 'react-dom'
+import React, { Component} from 'react';
+import ReactDOM from 'react-dom';
 import './Sidebar.scss';
+import img from '../../assets/images/logo.png';
+
 
 export default class Sidebar extends Component {
 
@@ -11,13 +13,13 @@ export default class Sidebar extends Component {
 
             <nav>
                 <ul>
-                <a href="#">Home</a><i class="fas fa-home"></i>
+                <a href="#">Home</a><i className="fa fa-spinner fa-spin"></i>
                 <a href="#">About</a>
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
                 </ul>    
             </nav>
-            <span className="designer">Desgined by<br/> Ross McMurray</span>        
+            <span className="designer">Desgined by Ross McMurray</span>        
         </div>
         );
     }
