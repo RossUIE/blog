@@ -1,10 +1,22 @@
 import React, { Component} from 'react';
 import ReactDOM from 'react-dom';
 import './Sidebar.scss';
-import img from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo.png';
+
 
 
 export default class Sidebar extends Component {
+
+    constructor() {
+        super()
+
+        this.state= {
+          logo: '../../assets/images/logo.png'
+        }
+        
+    }
+
+    
 
     render() {
         return (

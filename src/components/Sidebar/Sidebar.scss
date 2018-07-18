@@ -19,9 +19,12 @@ $yellow: #FFDC00;
     #logo {
         width: 100px;
         height: 100px;
-        background: blue;
         margin: auto;
         margin-top: 40px;
+        background-image: url('../../assets/images/logo.png');
+        background-position: center;
+        background-size: 120%;
+
     }
 
     nav {
