@@ -11,13 +11,13 @@ export default class Sidebar extends Component {
 
             <nav>
                 <ul>
-                <a href="#">Home</a>
+                <a href="#">Home</a><i class="fas fa-home"></i>
                 <a href="#">About</a>
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
                 </ul>    
             </nav>
-            <div className="designer">Desgined by<br/> Ross McMurray</div>        
+            <span className="designer">Desgined by<br/> Ross McMurray</span>        
         </div>
         );
     }

@@ -1,16 +1,18 @@
 
 $darkgrey: #AAAAAA;
 $yellow: #FFDC00;
+
 .sidebar {
-    width: 25vw;
+    width: 20%;
     height: 100vh;
     background: $darkgrey;
     position: fixed;
     display: flex;
-    color: white;
+    color: #fff;
     flex-direction: column;
     opacity: 0.7;
     font-weight: 700;
+
    
 
     #logo {
@@ -28,8 +30,6 @@ $yellow: #FFDC00;
         margin-right: 50px;
         font-size: 1.3rem;
         
-        
-
         a {
             color: white;
             padding-top: 10px;
@@ -42,11 +42,10 @@ $yellow: #FFDC00;
             &:hover {
                 color: $yellow;
             }
+
+            }
         }
-
-        
-    }
-
+    
 
     .designer {
         
@@ -58,5 +57,25 @@ $yellow: #FFDC00;
         padding-right: 50px;
 
     }
+
+    @media only screen and (max-width: 600px) {
+        nav a {
+            font-size: 0.7rem;
+            text-align: center;
+            width: 100%;
+            margin: auto;
+           
+        }
+
+        nav ul {
+            margin: auto;
+            padding: 0;
+        }
     
-}
+        nav {
+            margin: auto;
+        }
+    }
+}  
+
+
