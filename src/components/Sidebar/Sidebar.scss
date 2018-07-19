@@ -14,7 +14,7 @@ $yellow: #FFDC00;
     font-weight: 700;
     letter-spacing: 0.11em;
 
-   
+    
 
     #logo {
         width: 100px;
@@ -27,6 +27,10 @@ $yellow: #FFDC00;
 
     }
 
+    .icons {
+       
+        font-size: 0;
+    }
     nav {
         min-height: 200px;  
         height: auto;
@@ -62,12 +66,15 @@ $yellow: #FFDC00;
 
     }
 
-    @media only screen and (max-width: 700px) {
+
+
+    @media only screen and (max-width: 750px) {
         nav a {
-            font-size: 0.7rem;
+            font-size: 0;
             text-align: center;
             width: 100%;
             margin: auto;
+            
            
         }
 
@@ -82,6 +89,33 @@ $yellow: #FFDC00;
         #logo {
             width: 100%;
         }
+
+        .icons {
+            visibility: visible;
+            color: white;
+            font-size: 1.6rem;
+            width: 100%;
+        }
+
+        span {
+            width: 100%;
+            height: 30px;
+            padding-top:20px;
+            padding-bottom: 20px;
+
+            &:hover {
+                background: grey;
+            }
+        }
+
+
+        
+
+        
+        
+
+       
+        
     }
 }  
 
