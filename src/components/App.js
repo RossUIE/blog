@@ -10,7 +10,7 @@ class App extends Component {
         return (
             <div>
             <Sidebar />
-            <BlogContainer/>
+            <BlogContainer name="ross1"/>
             </div>
         );
     }

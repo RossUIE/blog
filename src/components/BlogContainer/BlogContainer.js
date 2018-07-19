@@ -1,28 +1,56 @@
-import React, { Component} from 'react'
-import ReactDOM from 'react-dom'
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom';
 import './BlogContainer.scss';
-import Bottombar from '../Bottombar/Bottombar.js'
+import Bottombar from '../Bottombar/Bottombar.js';
+import { blogPosts } from '../../Data/BlogPosts.js'
 
 export default class BlogContainer extends Component {
 
+    constructor(props) {
+
+        super(props);
+
+        this.state = {
+            BlogPosts: blogPosts
+
+        }
+
+        this.printCard = this.printCard.bind(this)
+
+
+    }
+
+    printCard() {
+        return (
+            this.state.BlogPosts.map((week, index) =>
+
+                <div className="blogPost" key={index}>
+                    <h1>{week.title}</h1>
+                    <h6>{week.timestap}</h6>
+                    <hr/>
+                    {
+                        week.post.map((day, i) =>
+                            <React.Fragment key={`blog-post-${index}-${i}`}>
+                                <h4>{day.title}</h4>
+                                <div>{day.content === '' ? <p><i>I didnt seem to write anything for this day...soz</i></p> : <p>{day.content}</p>}</div>
+                            </React.Fragment>
+                        )
+                    }
+                </div>
+            )
+        )
+    }
+
     render() {
         return (
-        <div className="blogContainer">
-        <div className="blogPost">
-        <h1>Week 1</h1>
-        <h4>Monday:</h4>
-        <p>Today is that start of my forth week here at Allstate, it has flown in too quick. Only 11 more months to go. I stayed off the day by starting another code academy course on Git; one of the most widely used modern version control system in the world. As I would be using it throughout my time here I thought it would be best to get a heads start on using it. As this would be all command line, it seemed rather daunting. However, I’ve come to realise its actually a rather easy language to pick up. My afternoon consisted of me diving deeper into react, going over some more advanced tutorials. At 3cklock we had a creative tech meeting which allowed all of the UX teams from around Allstate to come together and talk about their ideas etc. This meeting specifically was on animations and how they can be created which I found helpful as I knew I would start to use animations soon enough.</p>
-        <h4>Tuesday:</h4>
+            <div className="blogContainer">
 
-<p>Another new technology that I was going to be using was the “Greensock” animation library that allowed you to add animations to your interfaces. Most of Tuesday consisted of me exploring the library and going through some tutorials.</p>
-        </div>
+                {this.printCard()}
 
-        
-
-        <Bottombar/>
-
-        </div>
+                <Bottombar />
+            </div>
         );
     }
 }
+
 
