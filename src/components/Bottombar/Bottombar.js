@@ -15,9 +15,9 @@ export default class Bottombar extends Component {
         <div className="bottombar">
        
         <ul className="social">
-                <a href="#"><FontAwesomeIcon icon={['fab', 'facebook-f']} />   Facebook</a>
-                <a href="#"><FontAwesomeIcon icon={['fab', 'instagram']} />   Instagram</a>
-                <a href="#"><FontAwesomeIcon icon={['fab', 'twitter']} />   Twitter</a>
+                <a href="#"><span className="socialIcons"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></span>   Facebook</a>
+                <a href="#"><span className="socialIcons"><FontAwesomeIcon icon={['fab', 'instagram']} /></span>   Instagram</a>
+                <a href="#"><span className="socialIcons"><FontAwesomeIcon icon={['fab', 'twitter']} /> </span>  Twitter</a>
         </ul>  
         </div>
         );

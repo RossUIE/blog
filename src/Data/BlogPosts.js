@@ -155,7 +155,7 @@ export const blogPosts = [
     
             { 
                 title: 'Friday',
-                content: ''
+                content: 'During my time at Allstate I am going to be using an animation library called Greenock. Therefore, I wanted to add some animation to my blog website so that I could get some practice. My website contained a logo which I wanted to animate. The greensock library has many animations which will make the website more interactive. Furthermore, this also gave me the opportunity to use sketch. I had never previously used sketch before as I rarely used a Mac however I have come to realise it is quite a simple piece of software to master.'
             },
         ]
     },
