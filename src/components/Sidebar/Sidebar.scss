@@ -5,12 +5,14 @@ $yellow: #ede06b;
     width: 20%;
     height: 100vh;
     background: $darkgrey;
+    background-image: url('../../assets/images/blueprint.png');
     position: fixed;
     display: flex;
     color: #fff;
     flex-direction: column;
     font-weight: 700;
     letter-spacing: 0.11em;
+    
 
     #logo {
         width: 70%;

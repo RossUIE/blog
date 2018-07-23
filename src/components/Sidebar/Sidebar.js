@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './Sidebar.scss';
 import logo from '../../assets/images/logo.png';
+import blueprint from '../../assets/images/blueprint.png';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faHome, faUser, faPencilAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -67,7 +68,7 @@ export default class Sidebar extends Component {
     render() {
         return (
             <Waypoint onEnter={this.onEnter}>
-                <div className="sidebar">
+                <div className="sidebar" /*style={{ background: `url("${blueprint}") no-repeat center center `}}*/>
 
                     <div id="logo">
 
