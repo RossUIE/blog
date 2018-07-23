@@ -26,7 +26,7 @@ export default class BlogContainer extends Component {
 
                 <div className="blogPost" key={index}>
                     <h1>{week.title}</h1>
-                    <h6>{week.timestap}</h6>
+                    <h6>{week.timestamp}</h6>
                     <hr/>
                     {
                         week.post.map((day, i) =>

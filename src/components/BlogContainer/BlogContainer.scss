@@ -9,12 +9,12 @@
 }
 
 .blogPost {
-    width: 50%;
+    width: 60%;
     height: auto;
     min-height: 200px;
     margin: auto;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 5%;
     word-wrap: break-word;
      
     h1 {
@@ -36,7 +36,7 @@
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 770px) {
     .blogPost {
         width: 100%;
         padding: 20px;

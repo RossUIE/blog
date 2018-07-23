@@ -1,5 +1,4 @@
-
-$darkgrey: #3b3b3b;
+$darkgrey: #263238;
 $yellow: #FFDC00;
 
 .sidebar {
@@ -14,23 +13,17 @@ $yellow: #FFDC00;
     font-weight: 700;
     letter-spacing: 0.11em;
 
-    
-
     #logo {
-        width: 100px;
-        height: 100px;
+        width: 70%;
+        height: 200px;
         margin: auto;
-        margin-top: 40px;
-        background-image: url('../../assets/images/logo.png');
-        background-position: center;
-        background-size: 120%;
-
+        margin-top: 40px;   
     }
 
     .icons {
-       
         font-size: 0;
     }
+
     nav {
         min-height: 200px;  
         height: auto;
@@ -51,9 +44,8 @@ $yellow: #FFDC00;
                 color: $yellow;
             }
 
-            }
         }
-    
+    }
 
     .designer {
         
@@ -66,57 +58,43 @@ $yellow: #FFDC00;
 
     }
 
-
-
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 770px) {
         nav a {
             font-size: 0;
-            text-align: center;
-            width: 100%;
-            margin: auto;
-            
-           
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
         }
 
         nav ul {
-            margin: auto;
-            padding: 0;
+            padding: 0; 
         }
     
         nav {
             margin: auto;
+            text-align: center;
         }
         #logo {
             width: 100%;
+            padding: 5px;
         }
 
         .icons {
-            visibility: visible;
-            color: white;
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             width: 100%;
-        }
-
-        span {
-            width: 100%;
-            height: 30px;
-            padding-top:20px;
-            padding-bottom: 20px;
-
             &:hover {
-                background: grey;
+                color: $yellow;
+                
             }
         }
 
-
-        
-
-        
-        
-
-       
-        
+        .designer { 
+            text-align: center;
+            margin: auto;
+            padding: 5px;
+        }
     }
+
 }  
 
 

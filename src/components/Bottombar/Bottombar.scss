@@ -1,6 +1,6 @@
 .bottombar {
     width: 80%;
-    height: 6%;
+    height: 50px;
     background: #3b3b3b;
     position: fixed;
     bottom: 0;
@@ -21,6 +21,13 @@
         margin-right: 10px;
         color: #fff;
     }
+
+    @media only screen and (max-width: 770px) {
+
+       
+
+    }
     
 
 }
+
