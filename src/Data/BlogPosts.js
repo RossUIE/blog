@@ -159,6 +159,69 @@ export const blogPosts = [
             },
         ]
     },
+
+    {
+        title: 'Week 5',
+        timestamp: <i>23rd June - 27th June</i>,
+        post: [
+    
+            {   
+                title: 'Monday',
+                content: 'Today was the day that I was going to start into a new project with another member of my team. That project being “ARS”; Allstate roadside service. This is an app that allows customers to order different types of roadside service if they are stuck. The morning started off with me doing some touchups on my blog website, correcting some of the interface issues that it had. The second half of the day consisted of my workspace getting set up ready for the new project as a lot of new dependencies and modules needed installed. Once this was all completed, I was asked to go see I could see any issues with the interface and bring them to light so that they can be fixed.',
+            },
+            {
+                title: 'Tuesday',
+                content: 'Today marked the start of me taking on some tasks for the new project that I would be working on for the foreseeable future. To ease me in I was simply given some styling and text changed to do. This was harder than it may seem as there is hundreds of lines of code that I have to filter through to try and find a specific line of rect to change. It took longer than I originally thought but I’m starting to learn the folder structures and where to look within them. I came across a few difficulties today, but I was able to ask my team member and we were able to sort the issue out pretty quickly. Today was to ease me into the project and I look forward to diving deeper into it getting more complex tasks etc.',
+            },
+            {
+                title: 'Wednesday',
+                content: 'Today I continued work on the ARS. The way the project works is that a person is assigned a ticket with a number of different sub tasks within it. As I am only starting out tickets are not being assigned to me. Mark, my team member that I am working with is assigning me some tasks from his tickets which are simple enough to do. One of the main tasks today was to simply change a few fields about and add a checkbox to one of the screens along with other text. Furthermore, I had my first stand up meeting where all of the members of the team come together and talk about what they have done and any barriers that they have come across. This was an experience in itself, as it allowed me to see what it was like to have a meeting within a professional team. IN addition, we also had a “Team sync” meeting where my whole team in ANI had a Skype call with Mridu to see how we were all getting on.',
+            },
+            { 
+                title: 'Thursday',
+                content: 'The day started off with the remaining tasks of a ticket which mark helped me complete. A code review was undertaken where mark would simply look over the changed I had made to the project and approve or disapprove them accordingly. More disapproves at this stage then approves but nevertheless, I’m still learning as I go. Therefore, today marked the first of my commits to the project. Once the code was approved we then pushed the changed to the master branch of the repository.  I have learned a lot when it coms to using Github, in terms of the commands and how the structure works, however there is still a lot to learn. Every other Thursday there is a demo of ARS so that everyone can see how the app has progressed. Today one is being given which will show some of the styling that I have worked on.'
+            },
+    
+            { 
+                title: 'Friday',
+                content: `Today was quite a stressful day as I was given some more things to do from yesterdays demo feedback. My task today was to fix the padding an margin issues on the error messages on the contact/payment screen. When the user enters incorrect data into one of the fields, an error message will appear below the inout box. However, there were padding issues and therefore they needed fixed. They were simple enough to do. However, two of the fields were beside each other meaning the error messages appeared below both of them. Although, they had a static padding set to them meaning that if one of the fields was correct and the other wasn’t then the error message wouldn’t display in the correct place. It was my job today to correct this. I found this to be a very difficult task as I am still unfamiliar with the language. The solution involved adding a classname to the react component field if an error had occurred. Like so:\n` +
+                `svrbsrbrbdtbdt`
+            }
+        ]
+    },
+
+
+    {
+        title: 'Week 6',
+        timestamp: <i>25th June - 30th June</i>,
+        post: [
+    
+            {   
+                title: 'Monday',
+                content: 'The week started off with me diving into some styling issues concerning buttons and font sizes. My teammate mark was working from home today so I thought it was best I didn’t pick up any task that was going to be difficult as I wouldn’t of had any help. The main issue I had to change was the colour of the text within the primary buttons. They were not consistent throughout the app. Therefore, I simply made a new variable and added the colour to it and changed them throughout the app. IN addition, some screes had some discrepancies in font sizes being incorrect, so I was able to correct those too. I also completed some React tutorials today just to try and improve my knowledge further as I don’t feel confident with it yet.'
+                
+            },
+            {
+                title: 'Tuesday',
+                content: 'Today I started off the day shadowing mark as he was doing a task that would be benificial for me to see. The task was to add a new icon to one of the screens and add the functionality to it. He completed one icon and then I was given the task to add another style of icon to a different screen and style it. The most simple of tasks I have found to be quite difficult recently as I am using new technologies that I have never used before. For example, we were not taught flex box in University and it is one of the standards for styling here at Allstate. Therefore, a simple 5 minute task seems to take me longer. With some help I was able to complete the task. Later in the day I was given another part of a ticket. The ticket required me to add some payment card icons to one of the modal screens. Again I found the styling difficult enough.',
+            },
+            {
+                title: 'Wednesday',
+                content: 'Today I picked up where I left off yesturday with the new icons that were being added. I wrapped this up correcting the styling issues I was having. A code review was then taken and I was able to commit my changes to the internal GitHub. The next task was simply some styling issues relating to responsiveness which again uses flex box and css grid which I’m not familiar with. When the screen enlarged the text was not lining up so it was my job to correct this. I was frustrating to say the least at the start but I was able to correct the issue partially. Fixing one thing breaks another it seems so I still need to fix the new issue at hand. Later in the day I have my daily stand up where I will explain the work I have done.',
+            },
+            { 
+                title: 'Thursday',
+                content: 'Continuing on from yesturday I was able to solve my issue concerning the logo. As this app is going to be used by many different partners aswell as Allstate good hand rescue. There is a div in the home screen where the partner logo would go. My task was to display the logo if there was partner details and hide it if there wasn’t. I started this task yesturday; however wasn’t able to complete it as. Taking. Break and coming back to it the next day, I was able to solve the problem within 10 mins. Its shown me that the best thing to do when your stressing over an issue is to take a break. Later n the day I was simply doing some small styling tasks, fixing bugs etc.'
+            },
+    
+            { 
+                title: 'Friday',
+                content: ''
+            },
+        ]
+    },
+
+    
     
     
 

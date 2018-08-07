@@ -125,7 +125,7 @@ export default class Sidebar extends Component {
 
                         </ul>
                     </nav>
-                    <div className="designer">Desgined by Ross McMurray</div>
+                    <div className="designer">Developed by Ross McMurray</div>
                 </div>
             </Waypoint>
         );

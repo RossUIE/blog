@@ -32,10 +32,11 @@ export default class BlogContainer extends Component {
                         week.post.map((day, i) =>
                             <React.Fragment key={`blog-post-${index}-${i}`}>
                                 <h4>{day.title}</h4>
-                                <div>{day.content === '' ? <p><i>I didnt seem to write anything for this day...soz</i></p> : <p>{day.content}</p>}</div>
+                                <div>{day.content === '' ? <p><i>I didnt seem to write anything for this day</i></p> : <p>{day.content}</p>}</div>
                             </React.Fragment>
                         )
                     }
+                    
                 </div>
             )
         )
