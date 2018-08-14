@@ -216,10 +216,72 @@ export const blogPosts = [
     
             { 
                 title: 'Friday',
-                content: ''
+                content: 'The day started off with some styling issues tat were sent over for me to correct. The fixes were simple margin and padding corrections however it too some time as if you changed one the styling for an h6 tag, it would change all  the other tags throughout the app. Therefore, I had to find and target the one that I wanted to change. In addition, I also wanted to improve my overall Javascript knowledge by working through the code academy tutorial. This took up most of my afternoon until we were able to leave at 4oclock as it was a Friday! The main point I have improved my knowledge on this week is my SASS. Using sass is much easier then normal css as it allows you to indent code and use variables. This concludes my 6th week here at all sate which has flown in, if it continues to go as fast as this before I know it I will be back in Uni.'
             },
+            
         ]
+        
     },
+
+    {   
+    title: 'Week 7',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'The week started off with a slack call from my team mate mark as he was working from home today in order to discuss what we had to do this week. Main task today was to correct the animate issue from last week; We had sorted the issue on one device resolution. However, when we switched to an iPad size for the example, the css height calculations that we used would not work and therefore need fixed. Reducing the amount of code that we use is a big part of coding so it took me a while to come up with the best way to correct the issue without adding tons of media queries for every device. The use of sass mixins was mentioned however I’ve never used them before so I was hesitate to use them. I worked with James to resolve the issue and we were able to solve the solution to an extend. The afternoon consisted of me working through the more of the code academy tutorial working on my javascript knowledge.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'The day started off with some styling issues that Mark had sent across to me, where I had to simply fix padding issues within one of the screens. The rest of the day was simply more on boarding with code academy; working through the javascript tutorials. Every other Tuesday the ARS web developers will have a big sprint plan meeting where they would discuss the tickets for the upcoming sprint and plan out the next few weeks. This meeting would be around an hour long. So far I have learnt a lot from my time being here, specifically my technical knowledge. I am becoming more confident with the new technologies and getting put out of my comfort zone on a daily basis which is what I need if I want to develop. Its hard to believe how quick the 7 weeks has gone.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'This week has been quite slow for me as I am not really doing much. This is because Mark is off on holiday and he is unable to give me some of the tasks included in his tickets. I have been filling my days by doing some online learning on sites such as code academy etc. I am currently working through the Javascript tutorial to try and further my knowledge and become more confident with it. I feel that I am getting better as I am able to work through the lessons quite quickly without any hassle. Im sure as i get deeper into the course things will get difficult. One area in particular that I was never confident with was loops. Therefore, today I really focused on them to try and get a grasp on them.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Thursday was a rather chill day for me as I didn’t have a lot to do with Mark being off and the product being launched. Therefore, most of the issues have been resolved up till now. At 11oclock we made our way to the canteen were a talk was being given by the CEO of the company outlining the state of the company and how we are doing. It was good to see how the business is doing from a higher and financial level. It amazed me the amount of money that the company spends on a yearly basis…trillions of dollars. These numbers really bring to light the amount of money that the company must make to be able to spend that on a yearly basis. After the talk I simply continued on some Javascript tutorials which brought me up to quarter to three where I had my daily stand up with the rest of my team. After the stand up I was straight into another creative tech meeting which brought some very useful information to light, for example the handbook. The day was almost over and the end to my 7th week is coming to a close.'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'This eek ended as it started, slow and boring….With mark being off there wasn’t much for me to get stuck into and therefore I found myself starring at the screen hoping it would give me something to do. As I have mentioned before I am simply working through more tutorials trying to gain a better understanding of JavaScript. My goal is to completely understand the ins and outs of it by the end of the year. Somehow I don’t think imaging to meet that goal. '
+        },
+    ]
+},
+
+
+{
+    title: 'Week 8',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Monday morning started off with some issues concerning git conflicts and took up most of the morning. As I had some changed that I had made on Friday, during the weekend someone else had also made changed to the file that I was going to upload. Therefore, there is a push conflict. However, I ran into some issues fixing those conflicts which basically made me erase all of the work I had done and start again which wasn’t the best start to a Monday morning. In the end we were able to get it resolved. Today also marked the start to a new member of the UIE team. Its a tradition to go and have a coffee with the whole team to do a meet and greet. Gareth will be working alongside Chris and nicolus on the “My Account” team. The second half of the day I was working through React tutorials, only this time I was taking notes so that if needs be I can look back on them. Doing this has allowed me to gain a better understanding with things like state and constructors so I feel this was a good idea.',
+        },
+        {
+            title: 'Tuesday',
+            content: '',
+        },
+        {
+            title: 'Wednesday',
+            content: '',
+        },
+        { 
+            title: 'Thursday',
+            content: ''
+        },
+
+        { 
+            title: 'Friday',
+            content: ''
+        },
+    ]
+},
+ 
 
     
     
