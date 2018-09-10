@@ -1,4 +1,8 @@
 import React from 'react';
+import logo from '../assets/images/logo.png';
+import reactLogo from '../assets/images/react.png';
+import car from '../assets/images/carAnimation.png';
+import civic from '../assets/images/civic.png';
 
 /*
 {
@@ -51,7 +55,6 @@ export const blogPosts = [
             {   
                 title: 'Monday',
                 content: 'On the 25th June I commenced my placement with Allstate NI where I would send the next year working in the UIE team there. This Position involved front end development where I would be developing websites and apps for the Allstate corporation. The first day was simply a training day where all of the new interns and placement students came together and got to no each other by completing some random ice breaker tasks. Later in the day I was then taken up to the forth floor where I would be living for the next year, to meet my team. On first impressions all of the team seemed really nice and helpful.',
-                
             },
             {
                 title: 'Tuesday',
@@ -79,6 +82,7 @@ export const blogPosts = [
             {   
                 title: 'Monday',
                 content: 'First thing Monday I dived into some more complex learning by starting to look at ES6 Javascript to help build the foundations for React. ES6 being a new generation of Javsacript I hadn’t previously been taught this material at University. Therefore, essentially I had to start from scratch and learn the new syntax(Which was rather annoying).',
+                images: <img src={reactLogo}  />
             },
             {
                 title: 'Tuesday',
@@ -86,7 +90,8 @@ export const blogPosts = [
             },
             {
                 title: 'Wednesday',
-                content: 'Continuing on from yesturday, I started to work with SVG’s and how to animate them. I started using sketch for the first time today. I have never used this application before and was quite taken back on how easy to use the interface was and the tools within it. It allows you to import a SVG and export it as HTML code which made it easy to animate and include in your website. As the SVG was now code, it allowed me to target certain elements of the image and animate them seperatly. For some practice, I decided to animate a car so that when it moves the wheels move along with it.',
+                content: `Continuing on from yesturday, I started to work with SVG’s and how to animate them. I started using sketch for the first time today. I have never used this application before and was quite taken back on how easy to use the interface was and the tools within it. It allows you to import a SVG and export it as HTML code which made it easy to animate and include in your website. As the SVG was now code, it allowed me to target certain elements of the image and animate them seperatly. For some practice, I decided to animate a car so that when it moves the wheels move along with it.`,
+                images: [<img src={car}/>]
             },
             { 
                 title: 'Thursday',
@@ -109,6 +114,7 @@ export const blogPosts = [
             {   
                 title: 'Monday',
                 content: 'This week I wanted to give myself a challenge and try and use my React knowledge to create my own website. As I am interested in cars I’m going to create a website that lists a certain number of cars and their info. Therefore, today I started to create this site by making the header and nav components. These components are simple enough to make, simply code your header and nav within the component and then import it into your app.js file. This then allows you to call that component and it will be compiled.',
+                images: <img src={civic}/>
             },
             {
                 title: 'Tuesday',
@@ -264,25 +270,116 @@ export const blogPosts = [
         },
         {
             title: 'Tuesday',
-            content: '',
+            content: 'Tuesday was a day of self learning, working through some online tutorials etc. I really wanna improve my knowledge on my technical skills specifically React and Javascript as they are the languages that I am going to be using most. With Mark being of this last week it has left me with very little to do meaning it is very hard to write about what I’ve done daily because..well…I’ve done very little.',
         },
         {
             title: 'Wednesday',
-            content: '',
+            content: 'Similar to yesturday, I worked through tutorials and started to explore more of sketch using the tools within it and designing some interfaces etc. I am becoming more confident with the interface; although I found that I was struggling with some simple tasks such as changing the font to italic. I got it sorted in the end.',
         },
         { 
             title: 'Thursday',
-            content: ''
+            content: 'Marks back! Which means for the first time in over a week I had something to do. During the week I picked ip in the meetings that the team were starting the production of the login and membership screen. I didn’t want to start it while mark was away incase I got stuck and required help. I mentioned it to mark and he said we should start it so that we are a step ahead. Therefore, we took a screen each, meaning I was given the login screen to do. I learned how to create a new screen and how to give it a URL. This was the main bit of knowledge that I took away from today, the rest was simple styling. I was able to complete the screen in relatively quick time.'
         },
 
         { 
             title: 'Friday',
-            content: ''
+            content: 'Friday started off slow once again as we still don’t have a lot to do as the app in in quality assurance testing. However, the second half of the day give me a new task which at first I thought was going to be rather simple but turned out to be quite the opposite. The payment oral screen contained the card type icons that I had previously added. The task I was given was to filter those icons depending on what card type the user enters in. For example, the user would enter in the start of a Visa card; which would then trigger the filter process and the other card type icons would fade out and the visa icon would still be shown. Therefore, I would need to make use of some css animation too. As it turns out it was quite a difficult task…for me anyway. I decided I was just going to pick it up first thing Monday morning.'
+        },
+    ]
+},
+
+
+{
+    title: 'Week 9',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Its hard to believe I have been here almost 10 weeks, the time has flew in. Monday morning started with me picking up where I left off on Friday with the payment modal screen. I was able to get some help from my team members and we were able to get something working but soon realised that it wasn’t going to work at the end of the day. The issue we can across was that we used a switch statement..which we shouldn’t of. This meant that either all icons are being displayed or only one. Therefore, we couldn’t use css animation to animate the movement. Therefore, we came to realisation that if statements needed to be used. Therefore, most of the day was me heading in the wrong direction. We will get it sorted though.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'Tuesday started off with my 1-1 meeting with Brian which allowed me to have a catch up, filling brain in with everything and how I am getting on. After my meeting me and Mark worked through the payment card animations and were able to get the issue sorted and now they are working correctly. It showed me that certain issues may take longer than others as in this case it took a few days to solve.  The outcome turned out to more simple than I originally thought as we simply used css margin and opacity to create the animation.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Wednesday was a rather slow day as we didn’t have much work to do, so I decided I was going to do some self learning with Greenock. Having this animation knowledge will greatly benefit me in my final year as it allows me to add some interactions to my interfaces. I chose to create a rocket and animate it to take off. The first half of the day was me simply creating the illustrations on sketch. I feel much more confident with the tools that it has to offer now. As I wanted to animate the rocket taking off through the atmosphere and into space, that would mean that the sag would have to be really long. So the way I combatted this was instead of animation the actual rocket, I animated the background to move to make it feel as if the rocket was moving. This is how far I got with it today.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Today I continued on with the animation adding new animations and illustrations to it. I feel a lot more confident with the Greenock library. However, I have only touched the surface off it as it is a massive library with a lot of capability. Today also marked the day that good hands rescue was able to be viewed on the mobile device meaning we were able to test on lots of different devices and pinpoint functionality and UI bugs. We spent a lot of the day resolving these bugs.'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'Today was a rather chill day at the office as it started off with the usual Friday tradition, with a fry(fryday) which took up most of the morning. One of my main goals this year is to improve my animation and design knowledge as I would like to utilise these in my interfaces. I decided I was going to create a new illustration for my new showcase that I will be creating throughout the year. I had the idea to create a simple night/day cycle where the sun and moon would rise accordingly with the sky colour. Using Greenock I was able to create this animation. '
+        },
+    ]
+},
+
+{
+    title: 'Week 10',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'I started off the Monday where I left off on Friday with the SVG animation. However, I ran into some issues whenever exported the SVG image; for some reason the SVG wasnt scaling correctly whenever it was added to a webpage meaning it wouldn’t be responsive. As Sean was off, I left it to tomorrow. It was the stage of the development where the app was coming out of QA testing and a lot of bugs were being raised. Therefore, we had a lot of work to get through today. I had a few bugs to take care of today and was able to complete most of them. Me and Mark worked through them together and were able to close the ticket by the end of the day.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'Jira is a website that takes care of scrum management for our project and at the start I found it quite difficult to navigate around as it is such a big website. However, as Tim goes on I am starting to learn more being able to assign tickets to myself and resolve the,. This week was the start of tickets being assigned to me which I needed to complete.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Wednesday was a big day for the ARS team as we arranged for a group testing session for the web app so that we can pinpoint all off the issues that need to be resolved. The session was both a good thing and a bad thing, good because it allowed us to see all of the issues within the app but bad as it gave us soo much work to do. Therefore, Wednesday was spent resolving those bugs along with some animation work also. We wanted to add more animations to the screens and therefore we wanted to animate the clouds in the home screen to move. However, this is not as easy as a task as I may seem as there needs to be a lot of calculations to get the timings correct.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Today I was assigned a lot of tickets relating to the test session on Wednesday meaning most of my morning was taken up and I was able to get a lot of bugs fixed and pushed to the develop branch. Furthermore, one form of css I have not come across is CSS fallbacks. These are used if a certain technology isn’t supported. For example, in our web app we are using css grid for the header; however, some older versions of browsers dont support this technology. Therefore, we can use a fallback to use display flex. This is quite a useful thing to use as it makes your site accessible and useable from all devices no matter the version. '
+        },
+
+        { 
+            title: 'Friday',
+            content: 'I finally was able to get my SVG completed! However, I ran into some other issues….scaling and responsiveness. As I wanted my new animation to be the full screen width and height, the SVG was scaling weirdly when it was made smaller. This was an issue with the view box of the SVG which I could not figure out. With the help of Mark and Sean I was able to resolve the issue and it was now working. The resolution turned out to be quite simple as the view box didn’t need changing, simple CSS styling was needed. Friday as always, was fry day so most of the team went for a fry in the morning which allowed us to get away from the desks for a while. '
         },
     ]
 },
  
+{
+    title: 'Week 11',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
 
+        {   
+            title: 'Monday',
+            content: [
+                'Time is really flying in, I’m onto my 11th week here at Allstate…its hard to believe. After our stand up on Friday, Mark said that all ur tickets would be pushed by Tuesday. Therefore, this didn’t give us a lot of time as we still had a lot of tickets to resolve. As Mark was working from home today, most of the morning was spent on call working through tickets and getting them resolved and pushed. To be fair, we got quite a lot done in one day, leaving us to clean up the edges on Tuesday. As i had a few tickets assigned to me, I got stuck into them in the second half of the day. Simple styling changes were only required but more often than not I struggle on them and need help. ',
+                <br/>,
+                <br/>,
+                'Up to now I have simply been doing styling changes in ARS, and don’t get me wrong I have learnt a lot in that time….more than I have in uni in 2 years. However, I want to learn more difficult stuff, like react. The only way I am going to be able to do this is by getting stuck into it. I know I won’t be able to do it but thats the only way I am going to learn…Mark may have patients for me.'
+            ]
+        },
+        {
+            title: 'Tuesday',
+            content: 'I feel as if I’m repeating myself in these blogs, however there isn’t much to add to them as I am doing similar things on a daily basis due to the stage of development of ARS. Today I arrived with a ticket waiting for me to fix a design issue within the payment modal. The issue was that the footer, containing the add button was clipping off part of the other elements. The design concepts required the button to sit at the bottom of the page, meaning it needed an absolute positioning. Therefore, this meant that the button was not being pushed down the screen. In this case we had go against the design concept and make the positioning relative meaning that when the body got bigger the button will be pushed down and user will be able to scroll.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Today marked the end of the 4.5 sprint for ARS so we were working flat ut to try and resolve as much issues as we could before the next sprint commenced. I still had a few tickets open which needed resolving. Therefore, most of the day involved testing of the fixed bugs and getting them pushed. At the same time, new tickets were still coming through so we needed to get them sorted also. One major issue that as raised was that on iOS devices when the user tried to scroll on an input field there would be no response. We are thinking that his may be a operating system issue as we have not been ablate come up with a resolution.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Thursday started off with diversity training for 2 hours or so. This session was to explain equality within the workplace and how it can increase efficiency etc etc…was rather boring but nevertheless I had to attend. Most of the morning was taken up, which then was followed by a trip into town for some lunch.  The rest of the day I didnt really do much to be honest…'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'The day started off with some CSS fall backs again as I was not able to complete them previously. The issue I was having is that on older iOS devices CSS grid was displaying incorrectly causing the header to cover half of the screen. This was a difficult problem to correct as CSS fall backs usually contain code for if the technology is supported and different code for if it is supported. However, in this case CSS gris is being supported but not displaying correctly. This cam down to the “grid-template-rows” property not being defined. Therefore, the only way I could get around this was to specify a hard value for the header which wasn’t ideal but nevertheless the issue had been resolved. Now to move onto the other parts of the screens! But not before a few build errors and crashes….'
+        },
+    ]
+},
     
     
     

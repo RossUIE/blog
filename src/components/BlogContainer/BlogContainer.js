@@ -33,6 +33,7 @@ export default class BlogContainer extends Component {
                             <React.Fragment key={`blog-post-${index}-${i}`}>
                                 <h4>{day.title}</h4>
                                 <div>{day.content === '' ? <p><i>I didnt seem to write anything for this day</i></p> : <p>{day.content}</p>}</div>
+                                <div className= "images">{day.images}</div>
                             </React.Fragment>
                         )
                     }
