@@ -54,23 +54,31 @@ export const blogPosts = [
 
             {   
                 title: 'Monday',
-                content: 'On the 25th June I commenced my placement with Allstate NI where I would send the next year working in the UIE team there. This Position involved front end development where I would be developing websites and apps for the Allstate corporation. The first day was simply a training day where all of the new interns and placement students came together and got to no each other by completing some random ice breaker tasks. Later in the day I was then taken up to the forth floor where I would be living for the next year, to meet my team. On first impressions all of the team seemed really nice and helpful.',
+                content: 'The first day was simply a training day where all of the new interns and placement students came together and got to know each other by completing some random ice breaker tasks, including everything from invisible sharks to being stranded on a rubber dinghy.  Later in the day I was then taken up to the forth floor where I would be living for the next year, to meet my team. Being the only new start on my time I found it all quite overwhelming as I had no-one to share my new experiences with. However, on first impressions all of the team seemed really nice and helpful.',
             },
             {
                 title: 'Tuesday',
-                content: 'Tuesday started off with a meeting with my manager Brian, he took me through the different departments within the company and how we all worked together to achieve the end development goal. I was informed that I was going to be receiving a MacBook Pro however it wasn’t ready to be collected yet. Therefore throughout Tuesday and Wednesday I was simply shadowing different members of the team to see what they are currently working on. I had no idea the broad spectrum that the UIE team had. Some members of the team are working with advertisements, adding in animations etc, whilst others are working on new apps and internal sites.',
+                content: ['Tuesday started off with a meeting with my manager Brian, he took me through the different departments within the company and how we all worked together to achieve the end development goal and how we all fit in, in the bigger picture. A trip to the cafe was then followed so I could get to experience the whole team together. In total, there are 9 members of the team, however not everyone is together so it was good to meet everybody.',
+                <br/>,
+                <br/>,
+                'I was informed that I was going to be receiving a MacBook Pro however it wasn’t ready to be collected yet. Therefore throughout Tuesday and Wednesday I was simply shadowing different members of the team to see what they are currently working on. I had no idea the broad spectrum that the UIE team had. Some members of the team are working with advertisements, adding in animations etc, whilst others are working on new apps and internal sites.'
+            ]
             },
             {
                 title: 'Wednesday',
-                content: 'Wednesday also gave me an opportunity to engage with my team a bit more as we all went out for a team lunch. This allowed me to speak with the guys and get to know them a bit more. Wednesday mainly consisted of me shadowing other members of the team.',
+                content: 'Wednesday also gave me an opportunity to engage with my team a bit more as we all went out for a team lunch. This allowed me to speak with the guys in a more laid back environment and get to know them a bit more.',
             },
             { 
                 title: 'Thursday',
-                content: 'The two previous days were rather slow for me as I didn’t have much to do. However, I was able to get my laptop on Thursday and get set up with my login. This meant that I could start the learning process. I was informed that I would have to learn a few new languages to get started which was a bit over-whelming to say the least. The big one was “React” which is a popular javascript library that a lot of developers use these days. Therefore, I was excited to see what the main technologies are all about.'
+                content:[ 'The two previous days were rather slow for me as I didn’t have much to do. However, I was able to get my laptop on Thursday and get set up with my login. This meant that I could start the learning process.',
+                <br/>,
+                <br/>,
+                'I was informed that I would have to learn a few new languages to get started which was a bit over-whelming to say the least. The big one was “React” which is a popular javascript library that in a way is almost becoming the standard in the industry. Therefore, I was excited to see what the main technologies are all about. Today acted like a full introduction and guide into using some of the technologies and tools available to us, this included looking at A LOT of Javascript, much more than my dedicated Javascript module in Year 2 prepared me.'
+            ]
             },
             { 
                 title: 'Friday',
-                content: 'Friday was a rather chill day as we started the day off with a tea break with the whole team. I then dived into some learning. I thought it was best to start somewhere familiar and decided I was going to re-cap my HTML knowledge. Closing the day was a company Social event we attended with kinda free everything, this also gave us all a chance to catch up with some of the other placement and summer intern students we hadnt seen since Mondays induction, a fantastic ending to week 1.'
+                content: 'Friday was a rather chill day as we started the day off with a tea break with the whole team. I then dived into some learning. I thought it was best to start somewhere familiar and decided I was going to re-cap my HTML knowledge. Closing the day was a company Social which most of the team attended, this also gave us all a chance to catch up with some of the other placement and summer intern students we hadnt seen since Mondays induction, a fantastic ending to week 1.'
             },
         ]
     },
@@ -113,16 +121,16 @@ export const blogPosts = [
     
             {   
                 title: 'Monday',
-                content: 'This week I wanted to give myself a challenge and try and use my React knowledge to create my own website. As I am interested in cars I’m going to create a website that lists a certain number of cars and their info. Therefore, today I started to create this site by making the header and nav components. These components are simple enough to make, simply code your header and nav within the component and then import it into your app.js file. This then allows you to call that component and it will be compiled.',
+                content: 'This week I wanted to give myself a challenge and try and use my React knowledge to create my own website. As I am interested in cars I’m going to create a website that lists a certain number of cars and their info. Therefore, today I started to create this site by making the header and nav components. These components are simple enough to make, simply code your header and nav within the component and then import it into your app.js file. This then allows you to call that component and it will be compiled. I have found that using these small sites to practice have massively improved my HTML and CSS skills as I have become more confident and am able to debug issues more quickly than before.',
                 images: <img src={civic}/>
             },
             {
                 title: 'Tuesday',
-                content: 'Today I continued work on my website by making the listings of the cars that I will display. This was going to be the hardest  section of the website and unsurprisingly I found it rather difficult to complete spending most of the day trying to make it work before I finally gave in and asked for help from a member of my team. Within React I was able to create an array of objects where the data for the cars are stored. From there I crated a loop which would display the information within a listing. This is a really handy function as if in the future you anted to add more cars you would simply add another object to the array and it would automatically add the listing with the info. I learnt alot today, mostly to do with the react syntax etc. For example in react instead of using “for, do, do while” loops that I had previously been taught, you would use keyword “map”.',
+                content: 'Today I continued work on my website by making the listings of the cars that I will display. This was going to be the hardest  section of the website and unsurprisingly I found it rather difficult to complete spending most of the day trying to make it work before I finally gave in and asked for help from a member of my team. Within React I was able to create an array of objects where the data for the cars are stored. From there I created a loop which would display the information within a listing. This is a really handy function as if in the future you wanted to add more cars you would simply add another object to the array and it would automatically add the listing with the info. I learnt alot today, mostly to do with the react syntax etc. For example in react instead of using “for, do, do while” loops that I had previously been taught, you would use keyword “map”. A map simply loops through data and displays it.',
             },
             {
                 title: 'Wednesday',
-                content: 'Wednesday consisted of finishing up on the website, fixing up some small issues etc. I then started a new online course on code academy on react to reinforce my react knowledge and try to understand it a bit more. Furthermore, as I am going to be using Sass as a styling language I thought it was best that I started teaching some of that as well and therefore started a course on code academy for that too.',
+                content: 'Wednesday consisted of finishing up on the website, fixing up some small issues etc. I then started a new online course on code academy on react to reinforce my react knowledge and try to understand it a bit more. Furthermore, as I am going to be using Sass as a styling language I thought it was best that I started teaching some of that as well and therefore started a course on code academy for that too. Sass is a really handy language for CSS allowing for less code to be used and repetition of code is also reduced increasing efficiency and the time of creation.',
             },
             { 
                 title: 'Thursday',
@@ -144,7 +152,7 @@ export const blogPosts = [
     
             {   
                 title: 'Monday',
-                content: 'Today is that start of my forth week here at Allstate, it has flown in too quick. Only 11 more months to go. I stayed off the day by starting another code academy course on Git; one of the most widely used modern version control system in the world. As I would be using it throughout my time here I thought it would be best to get a heads start on using it. As this would be all command line, it seemed rather daunting. However, I’ve come to realise its actually a rather easy language to pick up. My afternoon consisted of me diving deeper into react, going over some more advanced tutorials. At 3 ovlock we had a creative tech meeting which allowed all of the UX teams from around Allstate to come together and talk about their ideas etc. This meeting specifically was on animations and how they can be created which I found helpful as I knew I would start to use animations soon enough.',
+                content: 'Today is that start of my forth week here at Allstate, it has flown in too quick. Only 11 more months to go! I stayed off the day by starting another code academy course on Git; one of the most widely used modern version control system in the world. As I would be using it throughout my time here I thought it would be best to get a heads start on using it. As this would be all command line, it seemed rather daunting at first. However, I’ve come to realise its actually a rather easy language to pick up. My afternoon consisted of me diving deeper into react, going over some more advanced tutorials. At 3 ovlock we had a creative tech meeting which allowed all of the UX teams from around Allstate to come together and talk about their ideas etc, specifically on animations for this session and how they can be created which I found helpful as I knew I would start to use animations soon enough.',
             },
             {
                 title: 'Tuesday',
@@ -161,7 +169,7 @@ export const blogPosts = [
     
             { 
                 title: 'Friday',
-                content: 'During my time at Allstate I am going to be using an animation library called Greenock. Therefore, I wanted to add some animation to my blog website so that I could get some practice. My website contained a logo which I wanted to animate. The greensock library has many animations which will make the website more interactive. Furthermore, this also gave me the opportunity to use sketch. I had never previously used sketch before as I rarely used a Mac however I have come to realise it is quite a simple piece of software to master.'
+                content: 'During my time at Allstate I am going to be using an animation library called Greenock. Therefore, I wanted to add some animation to my blog website so that I could get some practice. My website contained a logo on the top left corner and was added as a static object. Therefore, I could animate this logo to make the website more interactive and less boring looking; The greensock library has many animations which I could make use of to make this possible. Furthermore, this also gave me the opportunity to use sketch. I had never used sketch before as I rarely used a Mac however I have come to realise it is quite a simple piece of software to master.'
             },
         ]
     },
@@ -173,25 +181,34 @@ export const blogPosts = [
     
             {   
                 title: 'Monday',
-                content: 'Today was the day that I was going to start into a new project with another member of my team. That project being “ARS”; Allstate roadside service. This is an app that allows customers to order different types of roadside service if they are stuck. The morning started off with me doing some touchups on my blog website, correcting some of the interface issues that it had. The second half of the day consisted of my workspace getting set up ready for the new project as a lot of new dependencies and modules needed installed. Once this was all completed, I was asked to go see I could see any issues with the interface and bring them to light so that they can be fixed.',
+                content: 'Today was the day that I was going to start into a new project with another member of my team. That project being “ARS”; Allstate roadside service is an app that allows customers to order different types of roadside service if they are stuck and need assistance. The morning started off with me doing some touchups on my blog website, correcting some of the interface issues that it had. I am happy with the way the blog turned out, having a plain and simple layout. The second half of the day consisted of my workspace getting set up ready for the new project as a lot of new dependencies and modules needed installed. Once this was all completed, I was asked to go see I could see any issues with the interface and bring them to light so that they can be fixed.',
             },
             {
                 title: 'Tuesday',
-                content: 'Today marked the start of me taking on some tasks for the new project that I would be working on for the foreseeable future. To ease me in I was simply given some styling and text changed to do. This was harder than it may seem as there is hundreds of lines of code that I have to filter through to try and find a specific line of rect to change. It took longer than I originally thought but I’m starting to learn the folder structures and where to look within them. I came across a few difficulties today, but I was able to ask my team member and we were able to sort the issue out pretty quickly. Today was to ease me into the project and I look forward to diving deeper into it getting more complex tasks etc.',
+                content: 'Today marked the start of me taking on some tasks for the new project that I would be working on for the foreseeable future. To ease me in I was simply given some styling and text changes to do. This was harder than it may seem as there is hundreds of lines of code that I have to filter through to try and find a specific line of rect to change. It took longer than I originally thought but I’m starting to learn the folder structures and where to look within them. I came across a few difficulties today, but I was able to ask my team member and we were able to sort the issue out pretty quickly. As I mentioned, today was to ease me into the project and I look forward to diving deeper into it getting more complex tasks etc.',
             },
             {
                 title: 'Wednesday',
-                content: 'Today I continued work on the ARS. The way the project works is that a person is assigned a ticket with a number of different sub tasks within it. As I am only starting out tickets are not being assigned to me. Mark, my team member that I am working with is assigning me some tasks from his tickets which are simple enough to do. One of the main tasks today was to simply change a few fields about and add a checkbox to one of the screens along with other text. Furthermore, I had my first stand up meeting where all of the members of the team come together and talk about what they have done and any barriers that they have come across. This was an experience in itself, as it allowed me to see what it was like to have a meeting within a professional team. IN addition, we also had a “Team sync” meeting where my whole team in ANI had a Skype call with Mridu to see how we were all getting on.',
+                content: 'Today I continued work on the ARS. The way the project works is that a person is assigned a ticket with a number of different sub tasks within it. As I am only starting out tickets are not being assigned to me. Mark, my team member that I am working with is assigning me some tasks from his tickets which are simple enough to do. One of the main tasks today was to simply change a few fields about and add a checkbox to one of the screens along with other text. Furthermore, I had my first stand up meeting where all of the members of the team come together and talk about what they have done and any barriers that they have come across. This was an experience in itself, as it allowed me to see what it was like to have a meeting within a professional team. In addition, we also had a “Team sync” meeting where my whole team in ANI had a Skype call with Mridu to see how we were all getting on.',
             },
             { 
                 title: 'Thursday',
-                content: 'The day started off with the remaining tasks of a ticket which mark helped me complete. A code review was undertaken where mark would simply look over the changed I had made to the project and approve or disapprove them accordingly. More disapproves at this stage then approves but nevertheless, I’m still learning as I go. Therefore, today marked the first of my commits to the project. Once the code was approved we then pushed the changed to the master branch of the repository.  I have learned a lot when it coms to using Github, in terms of the commands and how the structure works, however there is still a lot to learn. Every other Thursday there is a demo of ARS so that everyone can see how the app has progressed. Today one is being given which will show some of the styling that I have worked on.'
+                content: 'The day started off with the remaining tasks of a ticket which mark helped me complete followed by a code review where mark would simply look over the changes I had made to the project and approve or disapprove them accordingly. More disapproves at this stage then approves but nevertheless, I’m still learning as I go. Therefore, today marked the first of my commits to the project. Once the code was approved we then pushed the changed to the master branch of the repository allowing me to use my new skills in Github, in terms of the commands and how the structure works, however there is still a lot to learn. Every other Thursday there is a demo of ARS so that everyone can see how the app has progressed. Today one is being given which will show some of the styling that I have worked on.'
             },
     
             { 
                 title: 'Friday',
-                content: `Today was quite a stressful day as I was given some more things to do from yesterdays demo feedback. My task today was to fix the padding an margin issues on the error messages on the contact/payment screen. When the user enters incorrect data into one of the fields, an error message will appear below the inout box. However, there were padding issues and therefore they needed fixed. They were simple enough to do. However, two of the fields were beside each other meaning the error messages appeared below both of them. Although, they had a static padding set to them meaning that if one of the fields was correct and the other wasn’t then the error message wouldn’t display in the correct place. It was my job today to correct this. I found this to be a very difficult task as I am still unfamiliar with the language. The solution involved adding a classname to the react component field if an error had occurred. Like so:\n` +
-                `svrbsrbrbdtbdt`
+                content: [`Today was quite a stressful day as I was given some more things to do from yesterdays demo feedback. My task today was to fix the padding an margin issues on the error messages on the contact/payment screen. When the user enters incorrect data into one of the fields, an error message will appear below the inout box. However, there were padding issues that needed fixing which were simple enough to do. However, two of the fields were beside each other meaning the error messages appeared below both of them. Although, they had a static padding set to them meaning that if one of the fields was correct and the other wasn’t then the error message wouldn’t display in the correct place. It was my job today to correct this.`,
+                <br/>,
+                <br/>,
+                `I found this to be a very difficult task as I am still unfamiliar with the language. The solution involved adding a classname to the react component field if an error had occurred. Like so:`,
+                <br/>,
+                <br/>,
+                '“className={`${this.state.cardexphasError && "cardError" }`}”',
+                <br/>,
+                <br/>,
+                'Therefore, I can set styles to that class giving it the correct padding, allowing for both error messages to be displayed correctly.'
+                ]
             }
         ]
     },
@@ -204,25 +221,25 @@ export const blogPosts = [
     
             {   
                 title: 'Monday',
-                content: 'The week started off with me diving into some styling issues concerning buttons and font sizes. My teammate mark was working from home today so I thought it was best I didn’t pick up any task that was going to be difficult as I wouldn’t of had any help. The main issue I had to change was the colour of the text within the primary buttons. They were not consistent throughout the app. Therefore, I simply made a new variable and added the colour to it and changed them throughout the app. IN addition, some screes had some discrepancies in font sizes being incorrect, so I was able to correct those too. I also completed some React tutorials today just to try and improve my knowledge further as I don’t feel confident with it yet.'
+                content: 'The week started off with me diving into some styling issues concerning buttons and font sizes within some of the screens. My teammate mark was working from home today so I thought it was best I didn’t pick up any task that was going to be difficult as I wouldn’t of had any help. The main issue I had to change was the colour of the text within the primary buttons as they were not consistent throughout the app. Therefore, I simply made a new variable and added the colour to it and changed them throughout the app. This is a handy feature of SASS; variables that allow you to store data such as colours etc meaning you only have to change the variable in order to change multiple values. In addition, some screens had some discrepancies in font sizes being incorrect, so I was able to correct those too. I also completed some React tutorials today just to try and improve my knowledge further as I don’t feel confident with it yet.'
                 
             },
             {
                 title: 'Tuesday',
-                content: 'Today I started off the day shadowing mark as he was doing a task that would be benificial for me to see. The task was to add a new icon to one of the screens and add the functionality to it. He completed one icon and then I was given the task to add another style of icon to a different screen and style it. The most simple of tasks I have found to be quite difficult recently as I am using new technologies that I have never used before. For example, we were not taught flex box in University and it is one of the standards for styling here at Allstate. Therefore, a simple 5 minute task seems to take me longer. With some help I was able to complete the task. Later in the day I was given another part of a ticket. The ticket required me to add some payment card icons to one of the modal screens. Again I found the styling difficult enough.',
+                content: 'Today I started off the day shadowing mark as he was doing a task that would be beneficial for me to see. The task was to add a new icon to one of the screens and add the functionality to it. He completed one icon and then I was given the task to add another style of icon to a different screen and style it. The most simple of tasks I have found to be quite difficult recently as I am using new technologies that I have never used before. For example, we were not taught flex box in University and it is one of the standards for styling here at Allstate. Therefore, a simple 5 minute task seems to take me longer but with some help I was able to complete the task. Later in the day I was given another part of a ticket. The ticket required me to add some payment card icons to one of the modal screens. Again I found the styling difficult enough.',
             },
             {
                 title: 'Wednesday',
-                content: 'Today I picked up where I left off yesturday with the new icons that were being added. I wrapped this up correcting the styling issues I was having. A code review was then taken and I was able to commit my changes to the internal GitHub. The next task was simply some styling issues relating to responsiveness which again uses flex box and css grid which I’m not familiar with. When the screen enlarged the text was not lining up so it was my job to correct this. I was frustrating to say the least at the start but I was able to correct the issue partially. Fixing one thing breaks another it seems so I still need to fix the new issue at hand. Later in the day I have my daily stand up where I will explain the work I have done.',
+                content: 'Today I picked up where I left off yesturday with the new icons that were being added correcting the styling issues. A code review was then taken and I was able to commit my changes to the internal GitHub. The next task was simply some styling issues relating to responsiveness which again uses flex box and css grid which I’m not familiar with. When the screen enlarged the text was not lining up so it was my job to correct this. I was frustrating to say the least at the start but I was able to correct the issue partially as fixing one thing breaks another. Later in the day I have my daily stand up where I will explain the work I have done.',
             },
             { 
                 title: 'Thursday',
-                content: 'Continuing on from yesturday I was able to solve my issue concerning the logo. As this app is going to be used by many different partners aswell as Allstate good hand rescue. There is a div in the home screen where the partner logo would go. My task was to display the logo if there was partner details and hide it if there wasn’t. I started this task yesturday; however wasn’t able to complete it as. Taking. Break and coming back to it the next day, I was able to solve the problem within 10 mins. Its shown me that the best thing to do when your stressing over an issue is to take a break. Later n the day I was simply doing some small styling tasks, fixing bugs etc.'
+                content: 'Continuing on from yesturday I was able to solve my issue concerning the logo. As this app is going to be used by many different partners aswell as Allstate good hand rescue, there is a div in the home screen where the partner logo would go. My task was to display the logo if there was partner details and hide it if there wasn’t. I started this task yesturday however wasn’t able to complete it. I decided to take a break and clear my head and within 10 minutes of my return I was able to solve the issue. Its shown me that the best thing to do when your stressing over an issue is to take a break. Later n the day I was simply doing some small styling tasks, fixing bugs etc.'
             },
     
             { 
                 title: 'Friday',
-                content: 'The day started off with some styling issues tat were sent over for me to correct. The fixes were simple margin and padding corrections however it too some time as if you changed one the styling for an h6 tag, it would change all  the other tags throughout the app. Therefore, I had to find and target the one that I wanted to change. In addition, I also wanted to improve my overall Javascript knowledge by working through the code academy tutorial. This took up most of my afternoon until we were able to leave at 4oclock as it was a Friday! The main point I have improved my knowledge on this week is my SASS. Using sass is much easier then normal css as it allows you to indent code and use variables. This concludes my 6th week here at all sate which has flown in, if it continues to go as fast as this before I know it I will be back in Uni.'
+                content: 'The day started off with some styling issues tat were sent over for me to correct such as simple margin and padding corrections however it too some time as if you changed one the styling for an h6 tag, it would change all  the other tags throughout the app. Therefore, I had to find and target the one that I wanted to change. In addition, I also wanted to improve my overall Javascript knowledge by working through the code academy tutorial. This took up most of my afternoon until we were able to leave at 4oclock as it was a Friday! The main point I have improved my knowledge on this week is my SASS. Using sass is much easier then normal css as it allows you to indent code and use variables. This concludes my 6th week here at all sate which has flown in, if it continues to go as fast as this before I know it I will be back in Uni.'
             },
             
         ]
@@ -236,7 +253,7 @@ export const blogPosts = [
 
         {   
             title: 'Monday',
-            content: 'The week started off with a slack call from my team mate mark as he was working from home today in order to discuss what we had to do this week. Main task today was to correct the animate issue from last week; We had sorted the issue on one device resolution. However, when we switched to an iPad size for the example, the css height calculations that we used would not work and therefore need fixed. Reducing the amount of code that we use is a big part of coding so it took me a while to come up with the best way to correct the issue without adding tons of media queries for every device. The use of sass mixins was mentioned however I’ve never used them before so I was hesitate to use them. I worked with James to resolve the issue and we were able to solve the solution to an extend. The afternoon consisted of me working through the more of the code academy tutorial working on my javascript knowledge.',
+            content: 'The week started off with a slack call from my team mate mark as he was working from home today in order to discuss what we had to do this week. Main task today was to correct the animate issue from last week; We had sorted the issue on one device resolution. However, when we switched to an iPad size for the example, the css height calculations that we used would not work and therefore need fixed. Reducing the amount of code that we use is a big part of coding so it took me a while to come up with the best way to correct the issue without adding tons of media queries for every device. The use of sass mixins was mentioned however I’ve never used them before so I was hesitated to use them. I worked with James to resolve the issue and we were able to solve the solution to an extent. The afternoon consisted of me working through the more of the code academy tutorial working on my javascript knowledge.',
         },
         {
             title: 'Tuesday',
@@ -244,16 +261,16 @@ export const blogPosts = [
         },
         {
             title: 'Wednesday',
-            content: 'This week has been quite slow for me as I am not really doing much. This is because Mark is off on holiday and he is unable to give me some of the tasks included in his tickets. I have been filling my days by doing some online learning on sites such as code academy etc. I am currently working through the Javascript tutorial to try and further my knowledge and become more confident with it. I feel that I am getting better as I am able to work through the lessons quite quickly without any hassle. Im sure as i get deeper into the course things will get difficult. One area in particular that I was never confident with was loops. Therefore, today I really focused on them to try and get a grasp on them.',
+            content: 'This week has been quite slow for me as I am not really doing much. This is because Mark is off on holiday and he is unable to give me some of the tasks included in his tickets. I have been filling my days by doing some online learning on sites such as code academy etc. I am currently working through the Javascript tutorial to try and further my knowledge and become more confident with it. I feel that I am getting better as I am able to work through the lessons quite quickly without any hassle. Im sure as i get deeper into the course things will get difficult. One area in particular that I was never confident with was loops and therefore, today I really focused on them to try and get a grasp on them.',
         },
         { 
             title: 'Thursday',
-            content: 'Thursday was a rather chill day for me as I didn’t have a lot to do with Mark being off and the product being launched. Therefore, most of the issues have been resolved up till now. At 11oclock we made our way to the canteen were a talk was being given by the CEO of the company outlining the state of the company and how we are doing. It was good to see how the business is doing from a higher and financial level. It amazed me the amount of money that the company spends on a yearly basis…trillions of dollars. These numbers really bring to light the amount of money that the company must make to be able to spend that on a yearly basis. After the talk I simply continued on some Javascript tutorials which brought me up to quarter to three where I had my daily stand up with the rest of my team. After the stand up I was straight into another creative tech meeting which brought some very useful information to light, for example the handbook. The day was almost over and the end to my 7th week is coming to a close.'
+            content: 'Thursday was a rather chill day for me as I didn’t have a lot to do with Mark being off and the product being launched. Therefore, most of the issues have been resolved up till now. At 11oclock we made our way to the canteen were a talk was being given by the CEO of the company outlining the state of the company and how we are doing. It was good to see how the business is doing from a higher and financial level. It amazed me the amount of money that the company spends on a yearly basis…trillions of dollars. These numbers really bring to light the amount of money that the company must make to be able to spend that on a yearly basis. After the talk I simply continued on some Javascript tutorials which brought me up to quarter to three where I had my daily stand up with the rest of my team. Fowllong the stand up I was straight into another creative tech meeting which brought some very useful information to light, for example the handbook. The day was almost over and the end to my 7th week is coming to a close.'
         },
 
         { 
             title: 'Friday',
-            content: 'This eek ended as it started, slow and boring….With mark being off there wasn’t much for me to get stuck into and therefore I found myself starring at the screen hoping it would give me something to do. As I have mentioned before I am simply working through more tutorials trying to gain a better understanding of JavaScript. My goal is to completely understand the ins and outs of it by the end of the year. Somehow I don’t think imaging to meet that goal. '
+            content: 'This week ended as it started, slow and boring….With mark being off there wasn’t much for me to get stuck into and therefore I found myself starring at the screen hoping it would give me something to do. As I have mentioned before I am simply working through more tutorials trying to gain a better understanding of JavaScript. My goal is to completely understand the ins and outs of it by the end of the year. Somehow I don’t think ill meet that goal.'
         },
     ]
 },
@@ -266,7 +283,7 @@ export const blogPosts = [
 
         {   
             title: 'Monday',
-            content: 'Monday morning started off with some issues concerning git conflicts and took up most of the morning. As I had some changed that I had made on Friday, during the weekend someone else had also made changed to the file that I was going to upload. Therefore, there is a push conflict. However, I ran into some issues fixing those conflicts which basically made me erase all of the work I had done and start again which wasn’t the best start to a Monday morning. In the end we were able to get it resolved. Today also marked the start to a new member of the UIE team. Its a tradition to go and have a coffee with the whole team to do a meet and greet. Gareth will be working alongside Chris and nicolus on the “My Account” team. The second half of the day I was working through React tutorials, only this time I was taking notes so that if needs be I can look back on them. Doing this has allowed me to gain a better understanding with things like state and constructors so I feel this was a good idea.',
+            content: 'Monday morning started off with some issues concerning git conflicts and took up most of the morning. As I had some changes that I had made on Friday, during the weekend someone else had also made changed to the file that I was going to upload. Therefore, there is a push conflict. However, I ran into some issues fixing those conflicts which basically made me erase all of the work I had done and start again which wasn’t the best start to a Monday morning. In the end we were able to get it resolved. Today also marked the start to a new member of the UIE team and its a tradition to go and have a coffee with the whole team to do a meet and greet. Gareth will be working alongside Chris and nicolus on the “My Account” team. The second half of the day I was working through React tutorials, only this time I was taking notes so that if needs be I can look back on them. Doing this has allowed me to gain a better understanding with things like state and constructors so I feel this was a good idea.',
         },
         {
             title: 'Tuesday',
@@ -278,12 +295,12 @@ export const blogPosts = [
         },
         { 
             title: 'Thursday',
-            content: 'Marks back! Which means for the first time in over a week I had something to do. During the week I picked ip in the meetings that the team were starting the production of the login and membership screen. I didn’t want to start it while mark was away incase I got stuck and required help. I mentioned it to mark and he said we should start it so that we are a step ahead. Therefore, we took a screen each, meaning I was given the login screen to do. I learned how to create a new screen and how to give it a URL. This was the main bit of knowledge that I took away from today, the rest was simple styling. I was able to complete the screen in relatively quick time.'
+            content: 'Marks back! Which means for the first time in over a week I had something to do. During the week I picked up in the meetings that the team were starting the production of the login and membership screen. I didn’t want to start it while mark was away incase I got stuck and required help however I mentioned it to mark and he said we should start it so that we are a step ahead. Therefore, we took a screen each, meaning I was given the login screen to do. I learned how to create a new screen and how to give it a URL. This was the main bit of knowledge that I took away from today, the rest was simple styling. I was able to complete the screen in relatively quick time.'
         },
 
         { 
             title: 'Friday',
-            content: 'Friday started off slow once again as we still don’t have a lot to do as the app in in quality assurance testing. However, the second half of the day give me a new task which at first I thought was going to be rather simple but turned out to be quite the opposite. The payment oral screen contained the card type icons that I had previously added. The task I was given was to filter those icons depending on what card type the user enters in. For example, the user would enter in the start of a Visa card; which would then trigger the filter process and the other card type icons would fade out and the visa icon would still be shown. Therefore, I would need to make use of some css animation too. As it turns out it was quite a difficult task…for me anyway. I decided I was just going to pick it up first thing Monday morning.'
+            content: 'Friday started off slow once again as we still don’t have a lot to do as the app in in quality assurance testing. However, the second half of the day give me a new task which at first I thought was going to be rather simple but turned out to be quite the opposite. The payment modal screen contained the card type icons that I had previously added. The task I was given was to filter those icons depending on what card type the user enters in. For example, the user would enter in the start of a Visa card; which would then trigger the filter process and the other card type icons would fade out and the visa icon would still be shown. Therefore, I would need to make use of some css animation too. As it turns out it was quite a difficult task…for me anyway. I decided I was just going to pick it up first thing Monday morning.'
         },
     ]
 },
@@ -296,7 +313,7 @@ export const blogPosts = [
 
         {   
             title: 'Monday',
-            content: 'Its hard to believe I have been here almost 10 weeks, the time has flew in. Monday morning started with me picking up where I left off on Friday with the payment modal screen. I was able to get some help from my team members and we were able to get something working but soon realised that it wasn’t going to work at the end of the day. The issue we can across was that we used a switch statement..which we shouldn’t of. This meant that either all icons are being displayed or only one. Therefore, we couldn’t use css animation to animate the movement. Therefore, we came to realisation that if statements needed to be used. Therefore, most of the day was me heading in the wrong direction. We will get it sorted though.',
+            content: 'Its hard to believe I have been here almost 10 weeks, the time has flew in. Monday morning started with me picking up where I left off on Friday with the payment modal screen. I was able to get some help from my team members and we were able to get something working but soon realised that it wasn’t going to work. The issue we can across was that we used a switch statement..which we shouldn’t of, meaning that either all icons are being displayed or only one. Therefore, we couldn’t use css animation to animate the movement. Therefore, we came to realisation that if statements needed to be used. Therefore, most of the day was me heading in the wrong direction. We will get it sorted though.',
         },
         {
             title: 'Tuesday',
@@ -304,7 +321,7 @@ export const blogPosts = [
         },
         {
             title: 'Wednesday',
-            content: 'Wednesday was a rather slow day as we didn’t have much work to do, so I decided I was going to do some self learning with Greenock. Having this animation knowledge will greatly benefit me in my final year as it allows me to add some interactions to my interfaces. I chose to create a rocket and animate it to take off. The first half of the day was me simply creating the illustrations on sketch. I feel much more confident with the tools that it has to offer now. As I wanted to animate the rocket taking off through the atmosphere and into space, that would mean that the sag would have to be really long. So the way I combatted this was instead of animation the actual rocket, I animated the background to move to make it feel as if the rocket was moving. This is how far I got with it today.',
+            content: 'Wednesday was a rather slow day as we didn’t have much work to do, so I decided I was going to do some self learning with Greenock. Having this animation knowledge will greatly benefit me in my final year as it allows me to add some interactions to my interfaces. I chose to create a rocket and animate it to take off. The first half of the day was me simply creating the illustrations on sketch allowing me to get a much better feel for the interface and confident with the tools that it has to offer now. As I wanted to animate the rocket taking off through the atmosphere and into space, that would mean that the background would have to be really long. So the way I combatted this was instead of animation the actual rocket, I animated the background to move to make it feel as if the rocket was moving. This is how far I got with it today.',
         },
         { 
             title: 'Thursday',
@@ -313,7 +330,7 @@ export const blogPosts = [
 
         { 
             title: 'Friday',
-            content: 'Today was a rather chill day at the office as it started off with the usual Friday tradition, with a fry(fryday) which took up most of the morning. One of my main goals this year is to improve my animation and design knowledge as I would like to utilise these in my interfaces. I decided I was going to create a new illustration for my new showcase that I will be creating throughout the year. I had the idea to create a simple night/day cycle where the sun and moon would rise accordingly with the sky colour. Using Greenock I was able to create this animation. '
+            content: 'Today was a rather chill day at the office as it started off with the usual Friday tradition, with a fry(fryday) which took up most of the morning. One of my main goals this year is to improve my animation and design knowledge as I would like to utilise these in my interfaces. I decided I was going to create a new illustration for my new showcase that I will be creating throughout the year. I had the idea to create a simple night/day cycle where the sun and moon would rise accordingly with the sky colour. Using Greenock I was able to create this animation.'
         },
     ]
 },
@@ -329,20 +346,20 @@ export const blogPosts = [
         },
         {
             title: 'Tuesday',
-            content: 'Jira is a website that takes care of scrum management for our project and at the start I found it quite difficult to navigate around as it is such a big website. However, as Tim goes on I am starting to learn more being able to assign tickets to myself and resolve the,. This week was the start of tickets being assigned to me which I needed to complete.',
+            content: 'Jira is a website that takes care of scrum management for our project and at the start I found it quite difficult to navigate around as it is such a big website. However, as time goes on I am starting to learn more being able to assign tickets to myself and resolve the. This week was the start of tickets being assigned to me which I needed to complete.',
         },
         {
             title: 'Wednesday',
-            content: 'Wednesday was a big day for the ARS team as we arranged for a group testing session for the web app so that we can pinpoint all off the issues that need to be resolved. The session was both a good thing and a bad thing, good because it allowed us to see all of the issues within the app but bad as it gave us soo much work to do. Therefore, Wednesday was spent resolving those bugs along with some animation work also. We wanted to add more animations to the screens and therefore we wanted to animate the clouds in the home screen to move. However, this is not as easy as a task as I may seem as there needs to be a lot of calculations to get the timings correct.',
+            content: 'Wednesday was a big day for the ARS team as we arranged for a group testing session for the web app so that we can pinpoint all off the issues that need to be resolved. The session was both a good thing and a bad thing, good because it allowed us to see all of the issues within the app but bad as it gave us soo much work to do. Therefore, Wednesday was spent resolving those bugs along with some animation work. We wanted to add more animations to the screens and therefore we wanted to animate the clouds in the home screen to move. However, this is not as easy as a task as I may seem as there needs to be a lot of calculations to get the timings correct.',
         },
         { 
             title: 'Thursday',
-            content: 'Today I was assigned a lot of tickets relating to the test session on Wednesday meaning most of my morning was taken up and I was able to get a lot of bugs fixed and pushed to the develop branch. Furthermore, one form of css I have not come across is CSS fallbacks. These are used if a certain technology isn’t supported. For example, in our web app we are using css grid for the header; however, some older versions of browsers dont support this technology. Therefore, we can use a fallback to use display flex. This is quite a useful thing to use as it makes your site accessible and useable from all devices no matter the version. '
+            content: 'oday I was assigned a lot of tickets relating to the test session on Wednesday meaning most of my morning was taken up and I was able to get a lot of bugs fixed and pushed to the develop branch. Furthermore, one form of css I have not come across is CSS fallbacks. These are used if a certain technology isn’t supported. For example, in our web app we are using css grid for the header; however, some older versions of browsers dont support this technology. Therefore, we can use a fallback to use display flex. This is quite a useful thing to use as it makes your site accessible and useable from all devices no matter the version. '
         },
 
         { 
             title: 'Friday',
-            content: 'I finally was able to get my SVG completed! However, I ran into some other issues….scaling and responsiveness. As I wanted my new animation to be the full screen width and height, the SVG was scaling weirdly when it was made smaller. This was an issue with the view box of the SVG which I could not figure out. With the help of Mark and Sean I was able to resolve the issue and it was now working. The resolution turned out to be quite simple as the view box didn’t need changing, simple CSS styling was needed. Friday as always, was fry day so most of the team went for a fry in the morning which allowed us to get away from the desks for a while. '
+            content: 'I finally was able to get my SVG completed! However, I ran into some other issues….scaling and responsiveness. As I wanted my new animation to be the full screen width and height, the SVG was scaling weirdly when it was made smaller. This was an issue with the view box of the SVG which I could not figure out. With the help of Mark and Sean I was able to resolve the issue and it was now working. The resolution turned out to be quite simple as the view box didn’t need changing, simple CSS styling was needed. Friday as always, was fry day so most of the team went for a fry in the morning which allowed us to get away from the desks for a while.'
         },
     ]
 },
@@ -355,7 +372,7 @@ export const blogPosts = [
         {   
             title: 'Monday',
             content: [
-                'Time is really flying in, I’m onto my 11th week here at Allstate…its hard to believe. After our stand up on Friday, Mark said that all ur tickets would be pushed by Tuesday. Therefore, this didn’t give us a lot of time as we still had a lot of tickets to resolve. As Mark was working from home today, most of the morning was spent on call working through tickets and getting them resolved and pushed. To be fair, we got quite a lot done in one day, leaving us to clean up the edges on Tuesday. As i had a few tickets assigned to me, I got stuck into them in the second half of the day. Simple styling changes were only required but more often than not I struggle on them and need help. ',
+                'Time is really flying in, I’m onto my 11th week here at Allstate…its hard to believe. After our stand up on Friday, Mark said that all ur tickets would be pushed by Tuesday meaning this didn’t give us a lot of time as we still had a lot of tickets to resolve. As Mark was working from home today, most of the morning was spent on call working through tickets and getting them resolved and pushed. To be fair, we got quite a lot done in one day, leaving us to clean up the edges on Tuesday. As i had a few tickets assigned to me, I got stuck into them in the second half of the day. Simple styling changes were only required but more often than not I struggle on them and need help.',
                 <br/>,
                 <br/>,
                 'Up to now I have simply been doing styling changes in ARS, and don’t get me wrong I have learnt a lot in that time….more than I have in uni in 2 years. However, I want to learn more difficult stuff, like react. The only way I am going to be able to do this is by getting stuck into it. I know I won’t be able to do it but thats the only way I am going to learn…Mark may have patients for me.'
@@ -367,7 +384,7 @@ export const blogPosts = [
         },
         {
             title: 'Wednesday',
-            content: 'Today marked the end of the 4.5 sprint for ARS so we were working flat ut to try and resolve as much issues as we could before the next sprint commenced. I still had a few tickets open which needed resolving. Therefore, most of the day involved testing of the fixed bugs and getting them pushed. At the same time, new tickets were still coming through so we needed to get them sorted also. One major issue that as raised was that on iOS devices when the user tried to scroll on an input field there would be no response. We are thinking that his may be a operating system issue as we have not been ablate come up with a resolution.',
+            content: 'Today marked the end of the 4.5 sprint for ARS so we were working flat out to try and resolve as much issues as we could before the next sprint commenced. I still had a few tickets open which needed resolving. Therefore, most of the day involved testing of the fixed bugs and getting them pushed. At the same time, new tickets were still coming through so we needed to get them sorted also. One major issue that as raised was that on iOS devices when the user tried to scroll on an input field there would be no response. We are thinking that his may be a operating system issue as we have not been ablate come up with a resolution.',
         },
         { 
             title: 'Thursday',
@@ -376,13 +393,98 @@ export const blogPosts = [
 
         { 
             title: 'Friday',
-            content: 'The day started off with some CSS fall backs again as I was not able to complete them previously. The issue I was having is that on older iOS devices CSS grid was displaying incorrectly causing the header to cover half of the screen. This was a difficult problem to correct as CSS fall backs usually contain code for if the technology is supported and different code for if it is supported. However, in this case CSS gris is being supported but not displaying correctly. This cam down to the “grid-template-rows” property not being defined. Therefore, the only way I could get around this was to specify a hard value for the header which wasn’t ideal but nevertheless the issue had been resolved. Now to move onto the other parts of the screens! But not before a few build errors and crashes….'
+            content: 'The day started off with some CSS fall backs again as I was not able to complete them previously. The issue I was having is that on older iOS devices CSS grid was displaying incorrectly causing the header to cover half of the screen. This was a difficult problem to correct as CSS fall backs usually contain code for if the technology is supported and different code for if it is supported. However, in this case CSS gris is being supported but not displaying correctly. This came down to the “grid-template-rows” property not being defined. Therefore, the only way I could get around this was to specify a hard value for the header which wasn’t ideal but nevertheless the issue had been resolved. Now to move onto the other parts of the screens! But not before a few build errors and crashes….'
+        },
+    ]
+},
+
+{
+    title: 'Week 12',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Monday started off being a Monday….with disaster. Mark had done a commit as soon as he came in and had accidentally committed a lot of things that he shouldn’t have and had messed things up causing a lot of build errors for people, including me. Therefore, it took about half of the day getting the changes reverted back on the GitHub. One thing I learnt from today is don’t commit before your morning coffee! The rest of the day was simply working through the tickets assigned to me.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'A ticket was assigned to me late in the day yesturday and it turned out to be more difficult than it first seemed. Within the vehicle modal screen, when the user enters the year of the vehicle, it would then get the data from the API relating to that year. However, we realised that if the user had a slow connection it would take a longer time to grab that data and then in turn display an error message as if there was no data relating to the year. Therefore, the issue was more difficult, I shadowed Mark as he corrected the issue. We corrected the issue by simply adding an ternary IF statement checking if the payload was empty. If the payload was empty, the spinner modal was added until the array became populated. Seems simple enough on paper, but I can tell you it was not.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Today was a rather slow day yet again, having very little to do. I started the morning off working on my own showcase website getting it created for me going back to Uni. Doing this has shown me how far I have come with my HTML/CSS skills as I was able to create what I wanted with very few issues etc when before I would have come across hurdles in the development. The second half of the day was used to work on the new home screen animations for GHR.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Today I finally got the animations completed and pushed to the development branch…however I ran into some issues. It turns out that the new animations were causing some performance issues, specifically on the CPU load. When the user loads the age the cpu usage spikes to 50-70% which is not good. As the page already has some performance issues, we decided it was best to take them out for the time being until it gets resolved. I also worked on the android PWA icons and got them pushed today..'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'Friday seen me working on the iOS scroll issue that has been on my plate for a very long time so it needed shut down soonish. Working with Mark we were able to diagnose the cause to the issue. It turned out to be a on focus issue relating to the input field. When the screen first loaded, it wasn’t focusing on the input and for some reason this was making it no scroll on touch. Therefore we simply added an on focus event to the screen.'
+        },
+    ]
+},
+   
+{
+    title: 'Week 13',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'It is now coming to the end of WLE and we are now moving on to CSR view, which is essentially the back end screens for people who are taking calls. However, there was one last ting that needed to be sorted before we moved on….the offline screen for the PWA. This meant that I had to start working with he service worker of the site which I had never done before but I am happy to learn more about it. Don’t ask me exactly what it does, because im not entirely sure but I know its needed. The main purpose of this service worker is to utilise caching of pages. However, we couldn’t get it working as the page wasn’t being cached properly when the user didnt have an internet connection. Although we didn’t get it working correctly I learnt a lot about service workers and how they are implemented meaning I can take something away from this.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'Tuesday consisted of tidying up some of the remaining bugs within white label express. One of the main ones I handled today was the drop off button not hiding after the field was empty or when it wasn’t focused. Therefore, this required a bit of react work, specifically working with states etc. I have worked with this stuff before but its always good to get the practice.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Today is the day we move onto CSR view which means new screens are being created for scratch giving me an opportunity to dive into some react work and really start learning. I think this is where Im really gonna start gaining some knowledge as in a way in some aspects im being thrown into the deep end which is a good thing to be honest. One of the screens required a call bar at the top, so today it was my job to add some styling using flex and CSS grid. I am quite confident with Flex but not so much with CSS grid. Therefore, it will be good to get some practice with it. The. Styling too me linger than expected if im honest taking me most of the day.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Continuing on from yesturday I picked up where I left off with the styling. Todays plan was to finish up the styling and dive into some react. The call car is what is handling the call and therefore requires alot of the changes depending if there is a call in progress. Therefore, this allowed me to work with ternary statements within javascript. If there is a call in progress then assign a class etc. I have definitely become more confident with ternarys from today alone.'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'Today was a continuation from yesturday adding more content to the csr screens, specifically adding the search member panel to the screen where the user can search a customers name etc.  This was a completely new component that needed to be added to the screen, however most of the elements within the component could be reused for the member login screen that I made a while ago. '
         },
     ]
 },
     
-    
-    
+{
+    title: 'Week 14',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Monday started off where I left off on Friday with the customer search panel component, tidying up the styling and adding it to the home screen. I am quite happy with the outcome as I was able to create it without any issues etc. in addition, my task for the day was to add the background component to the home screen of the car. IT could be a simple job of adding a background image to the container, however if we wanted to add some animation in the future it had to be a component so we can add the Greenock. This turned out to be a more difficult task that it seemed as yet again scaling the SVG was a pain but I was able to solve the issue with using translateY with a negative value to scale it to the way I wanted. The screen is starting to come together and looks really well.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'React! Today I started into some functionality behind the components, specifically the call bar. When the user starts a call, the customers information needed to be displayed but only when a call is active. Therefore, I had to make use of the state to create a Boolean variable that when true it will display the customers information. The logic behind this wold be if call is in progress is equal to true then display customer information, else don’t. Surprisingly, I was able to complete this with minimal help from mark which im proud of as it shows that I am learning which is the main thing.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Sticking with the call bar which contained a form field and therefore needs validating which I made it my task for the day. In my head, this seems to be a simple task as you simply check to see if the form field has an empty string or if it isn’t the correct data type then display the error message. However, I soon came to the realisation that this isn’t the case and a regex needs to be used to compare it against. I have very limited knowledge with regex’s as I have only used them in PHP in one of my modals in second year so I may need some help from Mark on this one.',
+        },
+        { 
+            title: 'Thursday',
+            content: ''
+        },
+
+        { 
+            title: 'Friday',
+            content: ''
+        },
+    ]
+},
+
 
 
 
