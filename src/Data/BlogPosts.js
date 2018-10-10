@@ -486,6 +486,63 @@ export const blogPosts = [
 },
 
 
+{
+    title: 'Week 15',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Carrying on from Friday with the WLE bug, i asked Mark to do a code review to see if I was on the right track with the bug. I then was able to push it to the develop branch for testing. Furthermore, the SVG that I added to the CSR customer search screen before wasn’t scaling properly when the screen was made smaller so therefore needed to fix this. The solution wasn’t apparent at the start',
+        },
+        {
+            title: 'Tuesday',
+            content: 'We are coming to the end of our 5.1 sprint for ARS and therefore progress is rather slow. The last two weeks or so we have made a start on the new screens and we are quite happy with the speed of progress that we made. Today was meant to bring a retro meeting along with sprint planning; However the India office had a day off meaning there were very few of us working making it pointless to plan. The meeting was pushed to tomorrow. ',
+        },
+        {
+            title: 'Wednesday',
+            content: 'I was able to obtain the sketch files for the new SVG meaning I could go into the source files and grab all of the layers and export the code. In addition to this, we also wanted start making the new screens responsive and therefore, required me to work on the components that I created, ie the call bar etc. We also had our sprint planning today which is fun as always, an you and a half of sitting listening but it is necessary as it shows the whole team what needs to be completed in the up coming sprint.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Thursday was a new day and we now had tickets to work through for this sprint meaning for the next week or so we will have jam packed days. To finish up on the login page for CSR I was given the task to complete all the error messages, adding the functionality and styling behind them. For example, of the user enters their password wrong an error message will appear; if they enter it wrong more than three times then a different style of alert will appear etc. Therefore, I need to add some javascript to display the correct alert for that specific error. How I approached this was using the react state and a javascript object so that I can have multiple objects within the one variable. When an error is triggered the react state will be set to true and the error message const will be called like so “errorMessage.inactiveError” meaning that the inactiveError message will be displayed. I thought it would be a good idea to add the functionality behind the number of log ins as it would give me some practice with react and javascript but soon found out that the backend team would do it through the server and what I had done was not needed….'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'I had to take some emergency time in the morning meaning I wasn’t in the office until around half 10 allowing for a short day before the weekend! Mark was on PTO today meaning I had rather chill day as I decided I should start to learn some redux, taking up most of the day.'
+        },
+    ]
+},
+
+{
+    title: 'Week 16',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Today is the start of my 16th week here at Allstate meaning I have been here for around 4 months; 1/3 of the way through! Its hard to believe how for I have come in the last few months, increasing my knowledge and most importantly my confidence. I still have alot to work on before I leave here but theres still time. The week started off by getting stuck into a new screen…well not really a new screen as such as its the same as the old confirmation screen on WLE only with different styling. I surprised myself in how quickly I could blast out the screen, having it completed in a few hours. However, we soon came to the realisation that having two confirmation screens for both CSR and WLE it then means that if there were to be some changes within the screen after development, the changes would have to be made in two different places. Therefore, some changes are being made to WLE to facilitate to this concern.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'PTO - Day off',
+        },
+        {
+            title: 'Wednesday',
+            content: '',
+        },
+        { 
+            title: 'Thursday',
+            content: ''
+        },
+
+        { 
+            title: 'Friday',
+            content: ''
+        },
+    ]
+},
 
 
 
