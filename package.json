@@ -1,13 +1,14 @@
 {
   "name": "boilerplate",
   "version": "1.0.0",
-  "description": "Kennys React Boilerplate App",
+  "description": "Ross McMurrays blog website",
   "main": "index.js",
+  "homepage": "http://rossuie.github.io/blog",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
-  "author": "Kenny Mulhern",
+  "author": "Ross McMurray",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.1.1",
@@ -29,6 +30,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
+    "gh-pages": "^2.0.1",
     "gsap": "^2.0.1",
     "html-webpack-plugin": "^3.1.0",
     "react-waypoint": "^8.0.3",
@@ -39,5 +41,10 @@
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1"
+  },
+
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
