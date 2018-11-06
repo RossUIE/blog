@@ -530,6 +530,93 @@ export const blogPosts = [
         },
         {
             title: 'Wednesday',
+            content: 'Today I revisited the animation work that I had previously done concerning the cloud animations for WLE. I had initially created these animations using greensock, a animation javascript library but we found out that it was quite taxing on the users CPU meaning it could affect the performance of the site. Therefore, they were removed rather quickly. Having these animations made a big difference to the overall look and feel of the application so we wanted them in one way or another. Or hope was that creating the animations with pure CSS would be less taxing and it was by almost 40 percent. I spent most of the day working on these animations on codeine before adding them in to the production build to make sure everything as okay. ',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Following on from Mondays work on the confirmation screen I basically had to scrap all of that work and start from scratch again as it needed to be coded in such a way that it allowed the developers to edit one code base rather than two. Therefore, how I approached this was to import the information screen into the new CSR confirmation screen meaning that when a change is made on the WLE confirmation it will automatically update across the CSR view making it a lot easier in the long run. I found this difficult to get my head around the whole thing at the start but once I understood it I blasted the screen out. The main thing I can take away from today is how to pass props from components and use them to manipulate the screen depending if a prop state is set to true etc.'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'As the week came to an end I finally was making the finishing touches to the confirmation page for CSR. Its felt as if I have been on this page for a long time but when I think about it I have only been doing it from Monday of this week…..which for me isn’t a long time I suppose. I got the page committed and moved onto my next issue which was the PWA splash screens are not displaying for WLE. Therefore, it was my task to sort this issue out and being a Friday not much else was done the rest of the day.'
+        },
+    ]
+},
+
+{
+    title: 'Week 17',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Last week I finished up the UI for the confirmation screen however, I forgot that there was a modal component to the screen that was triggered when the user goes to cancel the rescue. This would be an easy task if the UI was the same as WLE as the component was already there meaning it could just be re-used. However, its never as simple as that and the UI was completely different. Instead of creating another modal dialog, it was best to re-use the existing one and use a prop to change the styling depending on what view is current. This took alot of tweaking and working out but I was able to complete it by the end of the day.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'Today I started into the new vehicle locator screens for the fuel flow of CSR which will be used for wen the user is on the phone to a customer and they need to locate the customers car via a location input. The UI is rather simple and easy to make so it shouldn’t take me more than a day or so to Crete both screens. ',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Carrying on from yesturday I continued to work on the new vehicle locator screens which I should finish up by the end of the day. I came across a few hurdles today specifically with one section of the page that required me to us CSS before and after which I have never previously used before. However, I look at it in a positive way as it gives me an opportunity to learn and overcome this hurdle.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Picking up where I left off yesturday I continued trucking through the vehicle locator screens and was able to get them polished off today. I am quite happy with the outcome as they look clean and professional and most importantly follow the specs of the design concepts. I decided to go a bit further with the designs and add some animation to the interface using greensock, giving the UI more interaction. When a request is sent a green tick appears within an SVG which I animated to pop in on the page load. '
+        },
+
+        { 
+            title: 'Friday',
+            content: 'Testing is a big part of a project as it is required to see if everything is working as intended. Up until now I have only been introduced to the likes of black box testing which required a user to manually go and test the component and take note if it was working correctly. Today I was introduced to script testing which actually requires code written tests that will run through and see if the outcome was desired or not. Overall the ARS project set out to have a 80% code base tested which we have no where near that amount so my job today was to make a start on that testing. I started off my taking some tutorials online and doing some simple test with in the new CSR components that I had created previously but I actually found it quite challenging but never the less it was good to learn a new technology.'
+        },
+    ]
+},
+
+{
+    title: 'Week 18',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'To start off the week I took a dive into some new triage screens for the CSR view which were rather simple as the screens themselves didn’t contain that many elements and were repeated over multiple screens meaning I could blast most of them out. I came across one hurdle along the way which required me to use css before and after which I have never used before. Therefore, Mark was able to help me with that and I am alot more confident with this sort of thing.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'Following on from yesturday I was able to finish up the lockout flow triage screens and get them all polished up meaning I was able to move onto the jump start flow which is rather similar meaning it shouldn’t take me too long. After the stand up I was also informed that I had the tire triage flow to work through as well meaning  I had more work to do.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'On arrival I was greeted with an email informing me that I had been assigned a new ticket for WLE assigned to me by the product owner specifying that the changes should be moved up on my priority list. The changes were simple as it only required me to change the location of the track rescue button to the top of the screen as they feel that this element should be the first thing that the user sees as it would add more value to the screen. Therefore, I made the changes and got them pushed to the develop branch with no issues. In addition, I also made a start on the new tire triage screens for CSR as they needed to be started so that development could start. ',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Continuing on from yesturday with the triage screens, I dived into some css styling using css grid; I wanted to use this sort of styling as I am not as confident with it compared to the likes of flex box which would have made it easier for myself but I wanted to learn. I said to the developer that I would have the screen him by the end of the day which I soon found out was a mistake as I had hit a wall in the development causing the work flow to slow down requiring me to ask James for help. James was able to help me with the issue thankfully meaning I was able to get the screen committed for the developer to pick up.'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'Relating back to the concepts of the triage screens, I missed a feature and therefore spent most of the morning adding that in. When the user selects which tires are flat, the colour of the wheels meant to change colour. Therefore, I needed to pass the array as a prop to the sag component and use simple if statements to check to see if the wheel has been selected or not and if so change the backroad colour of that path. This wasn’t achieved without some help obviously.'
+        },
+    ]
+},
+
+{
+    title: 'Week 19 - Week off',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: '',
+        },
+        {
+            title: 'Tuesday',
+            content: '',
+        },
+        {
+            title: 'Wednesday',
             content: '',
         },
         { 
@@ -543,6 +630,38 @@ export const blogPosts = [
         },
     ]
 },
+
+{
+    title: 'Week 20',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Today marked the day I returned from my week off of PTO which was much needed to say the least and greeting my return was Miridu from Chicago who is another manager from the UIE team based in America. Miridu will be with us for a few days so I am sure we will be engaging in a lot of team events and lunches etc. As I was off for a week I came back to have no tickets on my plate which is nice as I can ease myself back into the swing of things; starting off with some simple styling of the tow transition page which just needed tidied up and adjusted to fit mobile. One of the main knowledge points I can take away from this experience is mobile design building mobile first and then build out as nowadays a higher percentage of people are using their mobile phones to view sites rather than their computers. The use of media queries with SASS makes things very easy.',
+        },
+        {
+            title: 'Tuesday',
+            content: '',
+        },
+        {
+            title: 'Wednesday',
+            content: '',
+        },
+        { 
+            title: 'Thursday',
+            content: ''
+        },
+
+        { 
+            title: 'Friday',
+            content: ''
+        },
+    ]
+},
+
+
+
 
 
 
