@@ -6,7 +6,9 @@
   "homepage": "http://rossuie.github.io/blog",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Ross McMurray",
   "license": "MIT",
@@ -41,10 +43,5 @@
     "webpack": "^4.4.1",
     "webpack-cli": "^2.0.13",
     "webpack-dev-server": "^3.1.1"
-  },
-
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   }
 }
