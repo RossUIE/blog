@@ -89,26 +89,26 @@ export const blogPosts = [
 
             {   
                 title: 'Monday',
-                content: 'First thing Monday I dived into some more complex learning by starting to look at ES6 Javascript to help build the foundations for React. ES6 being a new generation of Javsacript I hadn’t previously been taught this material at University. Therefore, essentially I had to start from scratch and learn the new syntax(Which was rather annoying).',
+                content: 'First thing Monday I dived into some more complex learning by starting to look at ES6 Javascript to help build the foundations for React. ES6 being a new generation of Javsacript I hadn’t previously been taught this material at University. However, it is rather similar to what I have previously been taught but with different syntax. Therefore, essentially I had to start from scratch and learn the new syntax(Which was rather annoying).',
                 images: <img src={reactLogo}  />
             },
             {
                 title: 'Tuesday',
-                content: 'Another new technology that I was going to be using was the “Greensock” animation library that allowed you to add animations to your interfaces. Most of Tuesday consisted of me exploring the library and going through some tutorials.',
+                content: 'Another new technology that I was going to be using was the “Greensock” animation library that allowed you to add animations to your interfaces. Essentially, GreenSock is a JavaScript framework which makes it easy to animate HTML elements and most of Tuesday consisted of me exploring this library and going through some tutorials. In my opinion, having animations added to an interface really sets it out from the rest; adding that interactivity making it more eye catching for the user.',
             },
             {
                 title: 'Wednesday',
-                content: `Continuing on from yesturday, I started to work with SVG’s and how to animate them. I started using sketch for the first time today. I have never used this application before and was quite taken back on how easy to use the interface was and the tools within it. It allows you to import a SVG and export it as HTML code which made it easy to animate and include in your website. As the SVG was now code, it allowed me to target certain elements of the image and animate them seperatly. For some practice, I decided to animate a car so that when it moves the wheels move along with it.`,
+                content: `Continuing on from yesturday, I started to work with SVG’s and how to animate them. I started using sketch for the first time whch I have never used before and was quite taken back on how easy to use the interface was and the tools within it. It allows you to import a SVG and export it as HTML code which made it easy to animate and include in your website. As the SVG was now code, it allowed me to target certain elements of the image and animate them separately. For some practice, I decided to animate a car so that when it moves the wheels move along with it.`,
                 images: [<img src={car}/>]
             },
             { 
                 title: 'Thursday',
-                content: 'Thursday I dived into some rect tutorials. Chris, a member of my team was kind enough to give me access to his udemy account which was an online learning resource. Throughout the day I followed these tutorials and created a real estate app which included features such as filtering data etc. I never knew that this sort of functionality could be done on the client side. It turned out to be less difficult than I had first anticipated.'
+                content: 'Thursday I dived into some rect tutorials. Chris, a member of my team was kindly enough to give me access to his udemy account which was an online learning resource website. Throughout the day I followed these tutorials and created a real estate app which included features such as filtering data and a search function etc. I never knew that this sort of functionality could be done on the client side. It turned out to be less difficult than I had first anticipated.'
             },
 
             { 
                 title: 'Friday',
-                content: 'Today was very similar to yesturday in that I simply continued on with tutorials trying to learn this new language. There are new concepts to this language that is difficult at first. React takes up the use of JSX which is kind of like Javascript and HTML in one; it allows you to create components which can be used to split up a page.  For example, if your index page required a header and nav, in react you can create a component which you can call to display this header and function. Therefore, it can be reused throughout the ret of your site by simply calling one word.'
+                content: 'Today was very similar to yesturday in that I simply continued on with tutorials trying to learn this new language. There are new concepts to this language that is difficult at first as React takes up the use of JSX which is kind of like Javascript and HTML combined into one allowing you to create components which can be used to split up a page.  For example, if your index page required a header and nav, in react you can create a component which you can call to display this header and function. Therefore, it can be reused throughout the ret of your site by simply calling one word.'
             },
         ]
     },
@@ -342,7 +342,7 @@ export const blogPosts = [
 
         {   
             title: 'Monday',
-            content: 'I started off the Monday where I left off on Friday with the SVG animation. However, I ran into some issues whenever exported the SVG image; for some reason the SVG wasnt scaling correctly whenever it was added to a webpage meaning it wouldn’t be responsive. As Sean was off, I left it to tomorrow. It was the stage of the development where the app was coming out of QA testing and a lot of bugs were being raised. Therefore, we had a lot of work to get through today. I had a few bugs to take care of today and was able to complete most of them. Me and Mark worked through them together and were able to close the ticket by the end of the day.',
+            content: 'I started off the Monday where I left off on Friday with the SVG animation. However, I ran into some issues whenever exported the SVG image; for some reason the SVG wasn’t scaling correctly whenever it was added to a webpage meaning it wouldn’t be responsive. As Sean was off, I left it to tomorrow. It was the stage of the development where the app was coming out of QA testing and a lot of bugs were being raised. Therefore, we had a lot of work to get through today. I had a few bugs to take care of today and was able to complete most of them. Me and Mark worked through them together and were able to close the ticket by the end of the day.',
         },
         {
             title: 'Tuesday',
@@ -354,7 +354,7 @@ export const blogPosts = [
         },
         { 
             title: 'Thursday',
-            content: 'oday I was assigned a lot of tickets relating to the test session on Wednesday meaning most of my morning was taken up and I was able to get a lot of bugs fixed and pushed to the develop branch. Furthermore, one form of css I have not come across is CSS fallbacks. These are used if a certain technology isn’t supported. For example, in our web app we are using css grid for the header; however, some older versions of browsers dont support this technology. Therefore, we can use a fallback to use display flex. This is quite a useful thing to use as it makes your site accessible and useable from all devices no matter the version. '
+            content: 'Today I was assigned a lot of tickets relating to the test session on Wednesday meaning most of my morning was taken up and I was able to get a lot of bugs fixed and pushed to the develop branch. Furthermore, one form of css I have not come across is CSS fallbacks. These are used if a certain technology isn’t supported. For example, in our web app we are using css grid for the header; however, some older versions of browsers don’t support this technology. Therefore, we can use a fallback to use display flex. This is quite a useful thing to use as it makes your site accessible and useable from all devices no matter the version. '
         },
 
         { 
@@ -388,7 +388,7 @@ export const blogPosts = [
         },
         { 
             title: 'Thursday',
-            content: 'Thursday started off with diversity training for 2 hours or so. This session was to explain equality within the workplace and how it can increase efficiency etc etc…was rather boring but nevertheless I had to attend. Most of the morning was taken up, which then was followed by a trip into town for some lunch.  The rest of the day I didnt really do much to be honest…'
+            content: 'Thursday started off with diversity training for 2 hours or so. This session was to explain equality within the workplace and how it can increase efficiency etc etc…was rather boring but nevertheless I had to attend. Most of the morning was taken up, which then was followed by a trip into town for some lunch.  The rest of the day I didn’t really do much to be honest…'
         },
 
         { 
@@ -434,7 +434,7 @@ export const blogPosts = [
 
         {   
             title: 'Monday',
-            content: 'It is now coming to the end of WLE and we are now moving on to CSR view, which is essentially the back end screens for people who are taking calls. However, there was one last ting that needed to be sorted before we moved on….the offline screen for the PWA. This meant that I had to start working with he service worker of the site which I had never done before but I am happy to learn more about it. Don’t ask me exactly what it does, because im not entirely sure but I know its needed. The main purpose of this service worker is to utilise caching of pages. However, we couldn’t get it working as the page wasn’t being cached properly when the user didnt have an internet connection. Although we didn’t get it working correctly I learnt a lot about service workers and how they are implemented meaning I can take something away from this.',
+            content: 'It is now coming to the end of WLE and we are now moving on to CSR view, which is essentially the back end screens for people who are taking calls. However, there was one last ting that needed to be sorted before we moved on….the offline screen for the PWA. This meant that I had to start working with he service worker of the site which I had never done before but I am happy to learn more about it. Don’t ask me exactly what it does, because I’m not entirely sure but I know its needed. The main purpose of this service worker is to utilise caching of pages. However, we couldn’t get it working as the page wasn’t being cached properly when the user didn’t have an internet connection. Although we didn’t get it working correctly I learnt a lot about service workers and how they are implemented meaning I can take something away from this.',
         },
         {
             title: 'Tuesday',
@@ -442,16 +442,16 @@ export const blogPosts = [
         },
         {
             title: 'Wednesday',
-            content: 'Today is the day we move onto CSR view which means new screens are being created for scratch giving me an opportunity to dive into some react work and really start learning. I think this is where Im really gonna start gaining some knowledge as in a way in some aspects im being thrown into the deep end which is a good thing to be honest. One of the screens required a call bar at the top, so today it was my job to add some styling using flex and CSS grid. I am quite confident with Flex but not so much with CSS grid. Therefore, it will be good to get some practice with it. The. Styling too me linger than expected if im honest taking me most of the day.',
+            content: 'Today is the day we move onto CSR view which means new screens are being created for scratch giving me an opportunity to dive into some react work and really start learning. I think this is where Im really gonna start gaining some knowledge as in a way in some aspects I’m being thrown into the deep end which is a good thing to be honest. One of the screens required a call bar at the top, so today it was my job to add some styling using flex and CSS grid. I am quite confident with Flex but not so much with CSS grid. Therefore, it will be good to get some practice with it. The. Styling too me longer than expected if I’m honest taking me most of the day.',
         },
         { 
             title: 'Thursday',
-            content: 'Continuing on from yesturday I picked up where I left off with the styling. Todays plan was to finish up the styling and dive into some react. The call car is what is handling the call and therefore requires alot of the changes depending if there is a call in progress. Therefore, this allowed me to work with ternary statements within javascript. If there is a call in progress then assign a class etc. I have definitely become more confident with ternarys from today alone.'
+            content: 'Continuing on from yesturday I picked up where I left off with the styling. Todays plan was to finish up the styling and dive into some react. The call car is what is handling the call and therefore requires a lot of the changes depending if there is a call in progress. Therefore, this allowed me to work with ternary statements within javascript. If there is a call in progress then assign a class etc. I have definitely become more confident with ternary from today alone.'
         },
 
         { 
             title: 'Friday',
-            content: 'Today was a continuation from yesturday adding more content to the csr screens, specifically adding the search member panel to the screen where the user can search a customers name etc.  This was a completely new component that needed to be added to the screen, however most of the elements within the component could be reused for the member login screen that I made a while ago. '
+            content: 'Today was a continuation from yesturday adding more content to the CSR screens, specifically adding the search member panel to the screen where the user can search a customers name etc.  This was a completely new component that needed to be added to the screen, however most of the elements within the component could be reused for the member login screen that I made a while ago. '
         },
     ]
 },
@@ -475,12 +475,12 @@ export const blogPosts = [
         },
         { 
             title: 'Thursday',
-            content: ''
+            content: 'I started the day off by creating a new screen for CSR, more specifically the home membership screen. This screen is basically the sae as the home screen of WLE so therefore it should be simple enough to copy and paste over. However, It was quite the opposite as the home screen used a technology called Redux which I have never came across before and therefore found it quite difficult. Redux is a predictable state container for JavaScript apps which helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. I tried to understand what I was reading but I feel I wasn’t successful in doing so.'
         },
 
         { 
             title: 'Friday',
-            content: ''
+            content: 'Friday was a rather chill day at the office as we started it off the way we normally do, with our fry. I came back to a ticket that had been assigned to me to correct a bug within WLE concerning the contact/payment scroll issues which I spent most of the day trying to figure out. The issue was that when the modal screen was opened there was a lot of white space at the bottom due to a function that we used to jump to a field which calculated the height of the screen accordingly. Therefore, the resolution I decided to create was only define the height calculations when the user focused on the appropriate field.'
         },
     ]
 },
@@ -497,7 +497,7 @@ export const blogPosts = [
         },
         {
             title: 'Tuesday',
-            content: 'We are coming to the end of our 5.1 sprint for ARS and therefore progress is rather slow. The last two weeks or so we have made a start on the new screens and we are quite happy with the speed of progress that we made. Today was meant to bring a retro meeting along with sprint planning; However the India office had a day off meaning there were very few of us working making it pointless to plan. The meeting was pushed to tomorrow. ',
+            content: 'We are coming to the end of our 5.1 sprint for ARS and therefore progress is rather slow. The last two weeks or so we have made a start on the new screens and we are quite happy with the speed of progress that we made. Today was meant to bring a retro meeting along with sprint planning; However the India office had a day off meaning there were very few of us working making it pointless to plan. The meeting was pushed to tomorrow.  ',
         },
         {
             title: 'Wednesday',
@@ -510,7 +510,7 @@ export const blogPosts = [
 
         { 
             title: 'Friday',
-            content: 'I had to take some emergency time in the morning meaning I wasn’t in the office until around half 10 allowing for a short day before the weekend! Mark was on PTO today meaning I had rather chill day as I decided I should start to learn some redux, taking up most of the day.'
+            content: 'I had to take some emergency time in the morning meaning I wasn’t in the office until around half 10 allowing for a short day before the weekend! Mark was on PTO today meaning I had rather chill day as I decided I should start to learn some redux, taking up most of the day.Redux is a predictable state container for JavaScript apps. Redux makes it easy to manage the state of your application. Another way of looking at this – it helps you manage the data you display and how you respond to user actions. Therefore, I feel that it would be beneficial for me to tart learning it.'
         },
     ]
 },
@@ -530,7 +530,7 @@ export const blogPosts = [
         },
         {
             title: 'Wednesday',
-            content: 'Today I revisited the animation work that I had previously done concerning the cloud animations for WLE. I had initially created these animations using greensock, a animation javascript library but we found out that it was quite taxing on the users CPU meaning it could affect the performance of the site. Therefore, they were removed rather quickly. Having these animations made a big difference to the overall look and feel of the application so we wanted them in one way or another. Or hope was that creating the animations with pure CSS would be less taxing and it was by almost 40 percent. I spent most of the day working on these animations on codeine before adding them in to the production build to make sure everything as okay. ',
+            content: 'Today I revisited the animation work that I had previously done concerning the cloud animations for WLE. I had initially created these animations using greensock, a animation javascript library but we found out that it was quite taxing on the users CPU meaning it could affect the performance of the site. Therefore, they were removed rather quickly. Having these animations made a big difference to the overall look and feel of the application so we wanted them in one way or another. Or hope was that creating the animations with pure CSS would be less taxing and it was by almost 40 percent. I spent most of the day working on these animations on codeine before adding them in to the production build to make sure everything as okay.',
         },
         { 
             title: 'Thursday',
@@ -551,11 +551,11 @@ export const blogPosts = [
 
         {   
             title: 'Monday',
-            content: 'Last week I finished up the UI for the confirmation screen however, I forgot that there was a modal component to the screen that was triggered when the user goes to cancel the rescue. This would be an easy task if the UI was the same as WLE as the component was already there meaning it could just be re-used. However, its never as simple as that and the UI was completely different. Instead of creating another modal dialog, it was best to re-use the existing one and use a prop to change the styling depending on what view is current. This took alot of tweaking and working out but I was able to complete it by the end of the day.',
+            content: 'Last week I finished up the UI for the confirmation screen however, I forgot that there was a modal component to the screen that was triggered when the user goes to cancel the rescue. This would be an easy task if the UI was the same as WLE as the component was already there meaning it could just be re-used. However, its never as simple as that and the UI was completely different. Instead of creating another modal dialog, it was best to re-use the existing one and use a prop to change the styling depending on what view is current. This took a lot of tweaking and working out but I was able to complete it by the end of the day.',
         },
         {
             title: 'Tuesday',
-            content: 'Today I started into the new vehicle locator screens for the fuel flow of CSR which will be used for wen the user is on the phone to a customer and they need to locate the customers car via a location input. The UI is rather simple and easy to make so it shouldn’t take me more than a day or so to Crete both screens. ',
+            content: 'Today I started into the new vehicle locator screens for the fuel flow of CSR which will be used for wen the user is on the phone to a customer and they need to locate the customers car via a location input. The UI is rather simple and easy to make so it shouldn’t take me more than a day or so to Crete both screens.',
         },
         {
             title: 'Wednesday',
@@ -580,7 +580,7 @@ export const blogPosts = [
 
         {   
             title: 'Monday',
-            content: 'To start off the week I took a dive into some new triage screens for the CSR view which were rather simple as the screens themselves didn’t contain that many elements and were repeated over multiple screens meaning I could blast most of them out. I came across one hurdle along the way which required me to use css before and after which I have never used before. Therefore, Mark was able to help me with that and I am alot more confident with this sort of thing.',
+            content: 'To start off the week I took a dive into some new triage screens for the CSR view which were rather simple as the screens themselves didn’t contain that many elements and were repeated over multiple screens meaning I could blast most of them out. I came across one hurdle along the way which required me to use css before and after which I have never used before. Therefore, Mark was able to help me with that and I am a lot more confident with this sort of thing.',
         },
         {
             title: 'Tuesday',
@@ -597,7 +597,7 @@ export const blogPosts = [
 
         { 
             title: 'Friday',
-            content: 'Relating back to the concepts of the triage screens, I missed a feature and therefore spent most of the morning adding that in. When the user selects which tires are flat, the colour of the wheels meant to change colour. Therefore, I needed to pass the array as a prop to the sag component and use simple if statements to check to see if the wheel has been selected or not and if so change the backroad colour of that path. This wasn’t achieved without some help obviously.'
+            content: 'Relating back to the concepts of the triage screens, I missed a feature and therefore spent most of the morning adding it in. When the user selects which tires are flat, the colour of the wheels meant to change colour. Therefore, I needed to pass the array as a prop to the sag component and use simple if statements to check to see if the wheel has been selected or not and if so change the backroad colour of that path. This wasn’t achieved without some help obviously.'
         },
     ]
 },
@@ -638,7 +638,36 @@ export const blogPosts = [
 
         {   
             title: 'Monday',
-            content: 'Today marked the day I returned from my week off of PTO which was much needed to say the least and greeting my return was Miridu from Chicago who is another manager from the UIE team based in America. Miridu will be with us for a few days so I am sure we will be engaging in a lot of team events and lunches etc. As I was off for a week I came back to have no tickets on my plate which is nice as I can ease myself back into the swing of things; starting off with some simple styling of the tow transition page which just needed tidied up and adjusted to fit mobile. One of the main knowledge points I can take away from this experience is mobile design building mobile first and then build out as nowadays a higher percentage of people are using their mobile phones to view sites rather than their computers. The use of media queries with SASS makes things very easy.',
+            content: 'Today marked the day I returned from my week off of PTO which was much needed to say the least and greeting my return was Miridu from Chicago, who is another manager from the UIE team based in America. Miridu will be with us for a few days so I am sure we will be engaging in a lot of team events and lunches etc so that we can bond as a team and get to know each other a bit better. As I was off for a week I came back to have no tickets on my plate which is nice as I can ease myself back into the swing of things; starting off with some simple styling of the tow transition page which just needed tidied up and adjusted to fit mobile. One of the main knowledge points I can take away from this experience is mobile design building mobile first and then build out as nowadays a higher percentage of people are using their mobile phones to view sites rather than their computers. The use of media queries with SASS makes things very easy..',
+        },
+        {
+            title: 'Tuesday',
+            content: 'Tuesday kicked off with a getting a head start into the tickets that I had on my plate concerning some bug fixes for WLE. One of the main issues was when the user fills in their contact and payment details the confirm button was being enabled before all of the input fields were being populated meaning that the user would be able to continue without crucial data being entered. The fix was quite simple as it only required one change to the if statement being used for the button enable. Before it was, if the box was greater or equal to one character, the button was enabled; therefore I simply needed to change the if statement to enable after 5 characters were added. In addition, we also all went out for team lunch to allow miridu to try a Boojum. ',
+        },
+        {
+            title: 'Wednesday',
+            content: 'All day Wednesday consisted of a team event as it was miridu last day here at ANI and therefore, we decided we should take a trip up the north coast so that she could experience the country side of Northern Ireland. The all round trip took us most of the day as we stopped for lunch at a local bar and grill restaurant close to bush mills. On the journey home we stopped off at Carrick castle and Knocka monument.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Mark had assigned me three new tickets for me to work my way through concerning customer membership alerts within the home screen of WLE. The application offers users an account that they can receive money benefits allowing them to purchase a recovery service from their account. My job today was to create the UI components for these alerts. These were quite simple task as I had previously done something similar with WLE meaning I was able to complete these with ease and get them committed.'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'Upon arrival into work today I was greeted with a ticket that had been assigned to me by Mark which required me to update the share and Lyft buttons within the tracker screen. The UI simply needed enhanced and updated to match the new zeppelin concepts, however, this turned out to be more difficult that it should have been and not because it required difficult code, more because the application was working at this point in time meaning I couldn’t actually view the screen I needed to edit. Therefore, most of Friday was spent trying to resolve this issue.'
+        },
+    ]
+},
+
+{
+    title: 'Week 22',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: '',
         },
         {
             title: 'Tuesday',
@@ -646,7 +675,126 @@ export const blogPosts = [
         },
         {
             title: 'Wednesday',
-            content: '',
+            content: 'Today is the first day back from my week long break and upon my return I got stuck straight back into some tickets as I had some assigned to me whilst I was away. We are working our way through the new screens for AMC (Allstate Motor Club) which allows users to have an account with funds etc that they can use to pay for a service. Therefore, the UI’s need to be tweaked in such a way to facilitate for this. I spent all day working on the select driver modal screen which simply allows users to select who’s currently driving the car and who needs the service. One difficulty that I came across was actually just targeting an element using css which should be quite simple…maybe I lost the knowledge on my week off; Mark was able to help me and explained where I was going wrong and I was able to complete the screen.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'For the next two days Mark will be attending a conference meaning he will be out of the office leaving me to hold the fort for the time being. Continuing on from yesturday I picked up where I left off with the AMC ticket. The first half of the day was going well I was able to get a decent amount completed however, I came across an issue that stopped me in my path.'
+        },
+
+        { 
+            title: 'Friday',
+            content: ''
+        },
+    ]
+},
+
+{
+    title: 'Week 23',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'The week started off with a workshop provided by James thats main goal was to introduce and teach Jest test scripts to the whole team. This class was very beneficial for me and Mark especially as we are required to write these tests for ARS. The goal for ARS is to have an 80% test coverage which is a high order seeing that we haven’t wrote any up till now. I have tried to write a few of these test scripts before for ARS so I have very limited knowledge on the topic but I now feel a lot more confident with writing these scripts now meaning I can make a start sometime this week In the afternoon I had my mid term placement meeting where a member of the university visited me to discuss how my placement is going. It came to my attention that I had a lot of tasks such as safety questionnaires etc, that I needed to complete for my placement therefore, I spent the rest of the day sorting these tasks out.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'Today was the end of the sprint for ARS and both me and Mark still had a lot of tickets still outstanding meaning we needed to get a move on and get as many as possible shut down today. As a lot of tickets overlapped between us we spent the morning going through all tickets to establish what we have completed and what still needs done. Luckily, after breaking all the tasks down there were less than we first anticipated with only a few left to do, with one of them being the issue that I had encountered last week concerning the vehicle select screen which Mark was unable to complete also. Therefore, we required the help from react expert James and he was able to help close the ticket meaning we were in the clear of tickets and ready for the sprint planning later in the day.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'As we are commencing work on secondary tow, Mark suggested that I should start exporting some screens and components from CSR into the new branch as many of them were very similar. This was simply a copy and paste job from one branch to another but it took a reasonable amount of time as I was having to go back and forth between the branches in order to get all the child components within the screens. For today my main task was to export the header and login screens as they were very similar in design to CSR. In addition, I also moved onto some confirmation screen styling enhancements as the code needed tidied up and changed.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Today was the day of our team lunch which would allow us to bond outside of the office and get to know each other a little better. We went to the jailhouse in Belfast and enjoyed a very nice lunch followed by a few pints. The rest of the day consisted of me  picking up from yesturday with the confirmation screen changes. The issue with the screen was the payment section was created using grid for each div. However, sometimes all the divs won’t be present meaning there would be a lot of whitespace making the styling of the screen incorrect.'
+        },
+
+        { 
+            title: 'Friday',
+            content: ''
+        },
+    ]
+},
+
+
+{
+    title: 'Week 24',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'This week marked the start of work into the secondary tow aspect of ARS which is essentially for the people who are taking the calls from users who are using the roadside app. Therefore, a user will ring up a CSR to arrange a service, the CSR will then use the secondary Tow screens to get details on the user, vehicle and requirements of the assistance. For this aspect of the project, we are working alongside another UIE from America called Marcy who is part of the nerderey. Don’t ask me what that is cause I haven’t a clue.  I spent most of today simply getting to grips with the work that marcy had already done to try and pick up where she left off. I made a start into the tow dispatch page styling which took most of the day.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'Following on from yesturday, I continued to blast through the styling for the tow dispatch page and to be honest its taking me longer than expected a I hit a wall with some of the styling for the dropdown component. I struggled to target an element within the component with CSS which took me a while to figure out. The issue was simply my lack of knowledge of CSS as I had to target the root parent element first in order to apply the styles to the child. The main thing that I can say about starting here at Allstate is how shocked I was to how more complex CSS is and the capabilities of it.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Moving on from yesturday I continued making my way through the secondary tow screens by creating the add user screen. This screen is very similar to the other components that I have created meaning I could just copy and paste the elements with minimal changes. The second part of the day I was greeted with an issue within AMC that needed taken care of urgently as it becoming a blocker for the development team meaning they couldn’t progress any further until this was done. The issue was that if the user had an account a different modal screen was shown within the location page listing all of the users cars. Before starting I thought that this task was going to be quite easy as it would only be a simple case of declaring a state and changing the render of the modal depending if the state is true or false. However, this wasn’t the case as we hit a complication with passing props. I wasn’t able to complete it today so its tomorrows job.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Continuing on from yesturday I picked up from where I left off with the modal screen. I asked Mark for help however he also wasn’t able to figure it out which doesn’t make e feel as bad for not being able to complete. Therefore, I had to ask James to come down and give me a hand and he was able to solve it quite quickly. I found out that you are able to pass a function as a prop which I never knew you could do meaning you can write this.props.openModal, open modal being the function.'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'Friday started off with the normal fry in the morning taking up most of the morning and then straight into some tickets that needed closed sharpish as the sprint was ending on Tuesday. The customer section within secondary tow that I had created at the start of the week needed some minor tweaking and tidying up when it came to responsiveness. As the page was created using the RPL(React Pattern Library) framework it had a lot of styles that was causing the elements within the page to act in a way that it wasn’t supposed to and therefore after spending more time than I should of on the issue, I resulted in re-coding the section my own way which in the long run worked out.'
+        },
+    ]
+},
+
+
+{
+    title: 'Week 25',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Today started off like you would expect a Monday to be…… Stressful. I was greeted with a security update for my Mac which resulted in my monitors not being recognised anymore meaning I had no screens. Therefore, I spent the first half of the day trying to solve the issue which ultimately	 left me accepting defeat and taking it to the Tech Cafe to which I was then given an adapter for each monitor making the Targus box that I have on my desk obsolete. The second half of the day was filled with meetings and stand ups discussing what are next moves are for today and tomorrow before the sprint planning.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'After finally getting sorted with my computer yesturday I can get stuck into some tickets that I had on my plate which required me to add some elements to the secondary Tow dispatch page. Within this page there would be simple and complex flows meaning that more things needed added to the page depending on a state. In addition, there was also some styling changes that needed done so I changed them as I went along. The main section that I was working on today was the provider notes; a section where the user can leave some notes, feedback or instructions. This data needed saved into state and used elsewhere meaning I needed to set this up for the backend team. ',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Today I found out about the joys of merge conflicts….Similar to every morning I come in and do a pull from the branch which simply pulls down other peoples work from the repository. However, this morning I didn’t as I still had some work to commit from yesturday. Within that time a lot of commits had been made between Mark and Marcy within the same pages that I had been working on. Therefore, once I committed my work there was come conflicts which needed to be resolved. These merges allow you to see your changes and the incoming changes side by side and you have to manually choose what changes you want to accept. I spent half of the day trying to figure out where the issue lay.',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Today was the day of the Allstate Christmas dinner which would be held in the Waterfront hall in Belfast. As the event was a smart dress code most of the guys actually wore their suits in but as I lived rather close I was able to go home and change..Thankfully. Today was a slow day as I didn’t have that many tickets to work through; one being the enhancement of the soft service triage message which wouldn’t take long at all as it was simply copy and pasting new paragraphs in.'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'As it was coming to the end of the year it meant that I had to use all of my emergency time and PTO as I would lose them otherwise. Therefore, I decided to take a few hours off in the morning to recover from the Christmas dinner. I arrived at the office around 12 o’clock meaning I only had a few hours till I could go home again. Not much was done today.'
+        },
+    ]
+},
+
+
+{
+    title: 'Week 26',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Being the last week before most of us finish for Christmas, a lot of tickets were being pushed through to us. Today I had three tickets assigned to me of which two shouldn’t take long and one being a more complex. The triage messages I was not able to complete today but encountered an issue that I’m still not sure how to resolve; When the user selected a certain option within the lockout flow it would take them to a different screen. This sort of job would usually be completed by the backend team but I decided to give it a go and was unable to work out the code. I then moved onto a ticket that required me to make the input labels consistent throughout the application which was a simple enough job.',
+        },
+        {
+            title: 'Tuesday',
+            content: 'A major issue that myself and Mark had to combat today is being able to tab into an iFrame within the modal screens. An iFrame acts like a webpage within a webpage meaning that the elements rendered within the iFrame technically are not within the parent page taking it harder to target. The issue was when the user tabs through the input fields they weren’t able to tab into the iFrame meaning we would have to find a solution. I spent most of the day just researching the issue trying to find anything online that could point us in the right direction, however I didn’t seem to have any luck.',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Carrying on from yesturday I picked up where I left off with the iFrame issue and was able to find something that may come in handy. Using javascript you can use “contentWindow” to read the contents of an iFrame meaning we could maybe see whats inside there and target the input field accordingly. Well that is the goal but we haven’t figured it out just yet. Both me and Mark are working through this issue so hopefully it shouldn’t take us too long.',
         },
         { 
             title: 'Thursday',
@@ -656,6 +804,88 @@ export const blogPosts = [
         { 
             title: 'Friday',
             content: ''
+        },
+    ]
+},
+
+{
+    title: 'Week 27 - Back after Christmas/New Years',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: '',
+        },
+        {
+            title: 'Tuesday',
+            content: '',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Today was my first day back after the Christmas/New year holidays and I can safely say that the break was needed. However, upon return I got stuck straight back into the swing of things with issues that had been raised by Ashish. Before the break I had updated the Triage messages for WLE, simply adding different messages and buttons. However, for the lockout flow there are multiple options for what type of lockout it is, for example, whether the keys are locked in the car/trunk or if they are simply lost. Every option had a different message and therefore my task for today was to link the option with the appropriate message. This was more difficult than it seemed as some backend code was linked to it of which I had no idea what any of it meant and therefore I had to workout that before I progressed any further. After some time, I finally cracked it and got the issue resolved and pushed up into the develop branch to be tested. ',
+        },
+        { 
+            title: 'Thursday',
+            content: 'Secondary Tow is due for release tomorrow and it is safe to say that it won’t be released on time as there are still numerous bugs and tickets to be ironed out. Looking back at the zeplin concepts, there are a few sections of the flow that we still needed to create. Therefore, my job today was to add one of the main sections into the flow; the parking/garage section. It was a rather simple task to complete as I had to create the section containing an input field and radio buttons which were then triggered depending on a state that was set above. I was able to complete it without an issues and I got it pushed up to the remote branch.'
+        },
+
+        { 
+            title: 'Friday',
+            content: 'One of the styling issues raised by the designers was that the dropdown currently have a transparent background which need to be switched to white. This seems like a simple task as you can just target the css background property of the select and that would be it done. However, as we have a separate div containing the down arrow within the select it means that when the background property Is applied it covers up the div. This can be resolved with a simple z-index adjustment but it then means that when the user clicks on the arrow box it does not trigger the dropdown. Therefore, I spent today trying to combat this issue and find a solution.'
+        },
+    ]
+},
+
+{
+    title: 'Week 28',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Monday',
+            content: 'Today marks the day of my 7 month here at Allstate which is hard to believe as it feels as if it was just yesturday that I started. This means that I am over half of the way through my placement and if it continues to go as fast as it has I will be back in university in no time for my final year. I can safely say that I have thoroughly enjoyed my time here and can see first hand how far I have come and developed within this short period of time. As the secondary tow MVP is coming to an end, we are simply tidying up the screens that are required for this sprint meaning we would target bugs and styling issues that we come across or are reined by other members of the team. Today was rather laid back as I didn’t have much on my plate. On Friday I was styling a section for Anish (a developer) getting it ready for him to add the backend but upon arrival this morning he reached out to me as there were a few styling issues that needed corrected so I spent my day working through those fixes to complete the section. ',
+        },
+        {
+            title: 'Tuesday',
+            content: 'Continuing on with the secondary tow bugs, an issue was brought to our attention within the vehicle details section. I think I discussed before that the drop down selects needed a white background which turned out more difficult than we had first anticipated. There were two paths that I could have taken with this issue, one would involve Javascript and the other would utilise simple CSS. Therefore, I opted for the easier route. The javascript route would cause me to try and find a way to target the select dropdown trigger by clicking on the div…this wouldn’t be an issue if there was only one dropdown as I could use one function and target the trigger, however, I don’t think this would be possible as we had multiple dropdown. Thus, it was a better option to use CSS. I was able to add a background to the dropdown component and use z-index to change the layers meaning the select would always be on top making it clickable. I got the issue fixed and pushed up to the branch ready for testing. ',
+        },
+        {
+            title: 'Wednesday',
+            content: 'Wednesday basically consisted of sprint planning which took up most of the day where I was assigned a few tickets to complete within the next few days.',
+        },
+        { 
+            title: 'Thursday',
+            content: ''
+        },
+
+        { 
+            title: 'Friday',
+            content: ''
+        },
+    ]
+},
+
+{
+    title: 'Week 29',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Weekly Update',
+            content: 'During last week it was brought to our attention that we had still to create another screen for the Secondary Tow MVP, the Manage user screen. This is a screen that the admins can use to remove or change the password of a user. The screen consisted of two components, a search box and results, both of which have been created in other sections of ARS. Therefore, with some small changes, I was able to create the screen in no time. As there was going to be a list of users, I could use a javascript map to cycle through all the users and list them. Using this map will save us repetition of code thus saving a lot of time and effort down the line whenever the backend team link up the API. The rest of the week was simply going through all of the screens to see if the styling is correct and they match the zeppelin concepts. A few things needed changed; simple padding or margin issues as usually when Mark and I create screens we pay attention to detail so that we don’t have much to fix later on. One of the main issues that I had found when comparing the screens with the concepts was that they had the wrong styling for the footer, as the WLE and secondary tow footer where different. Therefore, I spent the day Friday importing the new designs from the CSR branch and adding them into the screens.',
+        },
+    ]
+},
+
+{
+    title: 'Week 30',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Weekly Update',
+            content: 'This week was rather productive for both Mark and I as we were able to close a number of tickets and solve numerous bugs throughout the application. One of the main bugs that has been floating around since I started was an issue with the modal screens and header; if the modal screen was active the header links wouldn’t work meaning the user had to close the modal if the wanted access to the menu. I remember raising the bug whenever I first started here at Allstate and it was never spoke of again until Ashish raised it to Mark a mere 7 months later. Therefore, I took up the task to try and solve it which I surprisingly solved rather quickly. A quick search of google and the react pattern library told me that I needed to pass another prop to the modal screens to allow the header to work. The second half of the week was spent updating the styling for the error messages within secondary Tow. When the user submitted the form without filling in the required fields an error message would render under the field. However, some needed to have a red background meaning I would have to create a state and apply the class according to weather the state was true or false.In addition, I was also working on the tire select error handling which turned out to be quite difficult and therefore requiring the help of James. It was difficult as props needed to be passed between many components. ',
         },
     ]
 },
