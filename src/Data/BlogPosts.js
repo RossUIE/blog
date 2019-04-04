@@ -890,6 +890,87 @@ export const blogPosts = [
     ]
 },
 
+{
+    title: 'Week 31',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Weekly Update',
+            content: ['Continuing on from last week, both Mark and I got stuck into dealing with some go the UI bugs within secondary tow ensuring that everything was up to scratch for the release which was sometime this week. Whenever, the user submits a report of an error occurs a pop up message displays at the top of the screen. However, the alignment of this message was off and needed adjusted slightly. This was an easy fix which simply needed the use of flex box as it was currently only using padding to align it. Two lines of CSS sorted the issue and I was able to get the fix pushed. When comparing the screens to the concepts, there were a few discrepancies between the two when it came to the error handling. For example, if the user doesn’t populate a field an red background would be rendered. However, this wasn’t the case for the geosuggest autocompletes. At first I thought this would be an easy fix using CSS as I could just apply a class depending if the error prop was true, but this wasn’t the case as the prop needed to be passed up numerous files which is a rather difficult job to do. This required the help of James as I wasn’t able to figure it out.',
+            <br/>,
+            <br/>,
+            'Currently when the user selects an options that requires further sub section to appear the div would just appear. Therefore, add some micro interactions animating the div rendering. I think this will make the overall look and feel of the application would be a lot better with these included. The goal is to have a re-usable function that we could call anywhere and apply the css transition to that specific div. However, we are faced with an issue using the Javascript setTimeout function. As the div is not rendered, applying the class doesn’t seem to work so we need to find a fix. '
+        ]
+        },
+    ]
+},
+
+{
+    title: 'Week 32',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Weekly Update',
+            content: ['Secondary tow was coming to an end after a good few months of working on it and I am happy with the outcome that we created as the screens looked polished and clean. There were only a few issues that were raised; one being that the user dropdown within the header needed to disappear by clicking anywhere on the screen as the current functionality requires the user to click on the dropdown link again. When I first received the ticket, I hadn’t a clue how to go about starting it, but after some research I had a starting point which required me to search the DOM for an event. I started off by adding an event listener which would listen for when the user clicks anywhere within the DOM, which allowed me to use an IF Statement to check if the user is clicking within the DOM of the dropdown component. If they are not then I can set the user dropdown state to true making it disappear. ',
+            <br/>,
+            <br/>,
+            'This week marked the start of creation of the new Verizon screens. Verizon is a customer of Allstate which would be using the Roadside assistance application, meaning the screens needed to be changed slightly to cater to the new branding. Mark and I split the work load up between us and we both had 2 screens to create, all of which are rather simple and should have a quick turn over as they all contain components that we have created before.'
+        ]
+        },
+    ]
+},
+
+{
+    title: 'Week 33 + 34',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Weekly Update',
+            content: 'Time off'
+        },
+    ]
+},
+
+{
+    title: 'Week 35',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Weekly Update',
+            content: 'After returning from some time off I got stuck straight back into some work with secondary Tow, specifically with a new dashboard that was presented to us. This dashboard would consist of all the current, pending, scheduled and completed jobs allowing the user to search for a specific job or create a new one. Mark and I sat down to discuss how we would approach making the page and agreed on having 4 components making up the page and split the work load. I was given the tasks of creating the job overview and search function sections while mark had the job listings and the screen itself, all of which are relatively simple to create. One of the main seas I wanted to focus on the week was the use of utility classes within the pattern library which are simply pre-defined css classes that we can easily add. Up to this point I have been creating my own CSS and HTML which can take up more time and be less efficient. Furthermore, during sprint planing this week, a ticket was created to have a code coverage of at least 80% which is a tall order seeing as our code test coverage is only 2%. Therefore, both Mark and I started into some test scripts for the new components that we had created for the dashboard. Our strategy for meeting this target is to use a step system for each sprint. For example, for the next sprint we aim to meet 25% code coverage and increasing it more each sprint. '
+        },
+    ]
+},
+
+{
+    title: 'Week 36',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Weekly Update',
+            content: 'One of the main areas that the frontend team needed to improve on was test scripts or unit testing. Unit testing is a level of software testing where individual units/ components of a software are tested. The purpose is to validate that each unit of the software performs as designed. A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output. In a way it forces the programmer to write better code. These tests should be written before programming even starts, however for ARS this isn’t the case meaning we have a lot of catching up to do. Our goal was to have an 80% code coverage on all of the front and backend components..although this was a tall order seeing as as it stands we have a code coverage of 0.2%. Therefore, I spent most of the week trying to learn jest tests and get the coverage up. By the end of the week we are sitting at 20% coverage which is rather good in comparison to where we started.'
+        },
+    ]
+},
+
+{
+    title: 'Week 37',
+    timestamp: <i>25th June - 30th June</i>,
+    post: [
+
+        {   
+            title: 'Weekly Update',
+            content: 'The main intention of White label express was to create the components in such a way that they could be re-usable meaning that any brand that was on-boarded to the application would use the same components. The main goal of white label from the get go was to have an application that other brands could also make use of the application. As far as I am aware, there are up to 100 companies being on-boarded which will be a lot of work for us in the long run as we have to add the company logo to every screen. Hopefully, ill be gone by the time that task comes.  This week we started work on GM (General Motors) which consisted of Buick, Cadillac, GMC and Chevy meaning we had to import all those logos to the application and pass a props into a function depending on the company. During the week I created a function that made use of a switch function that wold provide the appropriate css class and image depending on what prop was passed.'
+        },
+    ]
+},
+
+
 
 
 
