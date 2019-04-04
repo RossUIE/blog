@@ -6,9 +6,10 @@
   "homepage": "http://rossuie.github.io/blog",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production",
+    "build": "rimraf ./docs && webpack --mode production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d docs",
+    "preview": "http-server ./docs -p 8080 -c-1"
   },
   "author": "Ross McMurray",
   "license": "MIT",
@@ -23,7 +24,8 @@
     "handlebars": "^4.0.12",
     "node-sass": "^4.7.2",
     "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react-dom": "^16.3.0",
+    "rimraf": "^2.6.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
